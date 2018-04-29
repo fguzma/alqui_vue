@@ -16,7 +16,7 @@ import { Modal } from 'bootstrap-vue/es/components';
 window.Vue.use(VueRouter);
 window.Vue.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyBayLe_XQAbUS883JqwQEhLRNwDM7XCFyU',
+        key: 'AIzaSyAG6GNe44aM6Ezj1R28-CiGnmtfkzOlo80',
         libraries: 'places',
     },
 });

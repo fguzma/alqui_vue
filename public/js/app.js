@@ -21055,7 +21055,7 @@ window.Vue = __webpack_require__(107);
 window.Vue.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]);
 window.Vue.use(__WEBPACK_IMPORTED_MODULE_1_vue2_google_maps__, {
     load: {
-        key: 'AIzaSyBayLe_XQAbUS883JqwQEhLRNwDM7XCFyU',
+        key: 'AIzaSyAG6GNe44aM6Ezj1R28-CiGnmtfkzOlo80',
         libraries: 'places'
     }
 });
