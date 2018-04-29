@@ -15,7 +15,6 @@ import { Modal } from 'bootstrap-vue/es/components';
 //import VueRouter from 'vue-router';
 window.Vue.use(VueRouter);
 window.Vue.use(VueGoogleMaps, {
-    installComponents: true,
     load: {
         key: 'AIzaSyBayLe_XQAbUS883JqwQEhLRNwDM7XCFyU',
         libraries: 'places',

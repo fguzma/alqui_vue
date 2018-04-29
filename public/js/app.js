@@ -21054,7 +21054,6 @@ window.Vue = __webpack_require__(107);
 //import VueRouter from 'vue-router';
 window.Vue.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]);
 window.Vue.use(__WEBPACK_IMPORTED_MODULE_1_vue2_google_maps__, {
-    installComponents: true,
     load: {
         key: 'AIzaSyBayLe_XQAbUS883JqwQEhLRNwDM7XCFyU',
         libraries: 'places'
