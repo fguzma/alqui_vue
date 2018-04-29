@@ -29,7 +29,6 @@
 
 <!-- Scripts -->
 <script type="text/javascript" src="/js/app.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBayLe_XQAbUS883JqwQEhLRNwDM7XCFyU&callback=initMap"></script>
 
 </body>
 </html>
