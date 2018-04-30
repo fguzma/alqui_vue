@@ -8,9 +8,9 @@
     {!!Html::script("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")!!}
     {!!Html::script("https://code.jquery.com/jquery-migrate-3.0.0.js")!!}
 
-    {!!Html::style("css/cssF/principal/style.css")!!}
-    {!!Html::style("css/cssF/principal/reset.css")!!}
-    {!!Html::script("js/jsF/principal/modernizr.js")!!}
+    {!!Html::style("css/Index/style.css")!!}
+    {!!Html::style("css/Index/reset.css")!!}
+	{!!Html::script("js/jsF/principal/modernizr.js")!!}
   	
 	<title>Alquileres Santana </title><!--Martha Varela-->
 	<link href="/img/santana.png" type="image/x-icon" rel="shortcut icon" />
