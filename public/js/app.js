@@ -68616,7 +68616,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     $('.vue-map').css('border-radius', '50%');
     //resize height for browser
-    $('.carousel-inner').css('height', '67gem');
+    $('.carousel-inner').css('height', '67em');
 
     function stickNavigation() {
       descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
