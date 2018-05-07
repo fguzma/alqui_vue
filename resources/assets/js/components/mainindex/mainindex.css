@@ -399,8 +399,8 @@ textarea {
   height: 600px;
   width: 100%;
   overflow: hidden;
-  padding-right: 2em;
-  padding-left: 2em;
+  padding-right: 20em;
+  padding-left: 20em;
   background: black;
 }
 
