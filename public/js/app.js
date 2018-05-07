@@ -68752,7 +68752,7 @@ var render = function() {
                   controls: "controls",
                   background: "#ababab",
                   interval: 1500,
-                  "img-width": "800",
+                  "img-width": "400",
                   "img-height": "480"
                 },
                 on: {
@@ -68791,8 +68791,8 @@ var render = function() {
                 background: "#ababab",
                 interval: 1500,
                 "sv-model": "slide",
-                "img-width": "800",
-                "img-height": "480"
+                "img-width": "400",
+                "img-height": "400"
               },
               on: {
                 "sliding-start": _vm.onSlideStart,

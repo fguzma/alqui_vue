@@ -53,7 +53,7 @@
             .col-12.white-text.t-child
               h3#alquiler-sillas.satisfy.subtitle {{ media.name }}
   b-modal#modal1(:href="media.id" v-for="media in Media" :key="media.id")
-    b-carousel(controls=true, background="#ababab", :interval="1500", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="800", img-height="480")
+    b-carousel(controls=true, background="#ababab", :interval="1500", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="400", img-height="480")
       b-carousel-slide(v-for="media in Media" :key="media.id" :img-src="media.images[0].url")
   //b-modal(href="modal2")
   //  b-carousel#gallery-service-2(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
@@ -86,7 +86,7 @@
   //    b-carousel-slide(img-src="static/img/8/Buffet.jpg")
   // Slide for show a preview of services.
   #gallery
-    b-carousel#gallery-carousel( controls=true, background="#ababab", :interval="1500", sv-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="800", img-height="480")
+    b-carousel#gallery-carousel( controls=true, background="#ababab", :interval="1500", sv-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="400", img-height="400")
       b-carousel-slide(v-for="media in Media" :key= "media.id" :img-src="media.images[0].url")
   // Card with lorem ipsum for a brief description of slogan or mision and vision of company.
   .container
