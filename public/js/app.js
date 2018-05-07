@@ -69009,15 +69009,16 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "absolute white", attrs: { id: "menu-title" } },
-      [
-        _c("h2", { staticClass: "satisfy title", attrs: { id: "service" } }, [
-          _vm._v(" Servicios")
-        ])
-      ]
-    )
+    return _c("div", { staticClass: "absolute", attrs: { id: "menu-title" } }, [
+      _c(
+        "h2",
+        {
+          staticClass: "white-text black satisfy title",
+          attrs: { id: "service" }
+        },
+        [_vm._v(" Servicios")]
+      )
+    ])
   },
   function() {
     var _vm = this

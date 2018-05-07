@@ -44,8 +44,8 @@
                   a(href="#location") Como llegar
   // Brief description of services and prices of company
   .text-center.relative#menu
-    .absolute.white#menu-title
-      h2.satisfy.title#service  Servicios
+    .absolute#menu-title
+      h2.white-text.black.satisfy.title#service  Servicios
     .row
       .col-3.services(v-for="media in Media" :key="media.id" v-bind:style="{'background-image': 'url(' + media.images[0].url + ')' }")
         .screen
