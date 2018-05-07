@@ -51,39 +51,36 @@
         .screen
           .row.full-height.t-div
             .col-12.white-text.t-child
-              h3#alquiler-sillas.satisfy.subtitle {{ media.name }}
-  b-modal#modal1(:href="media.id" v-for="media in Media" :key="media.id")
-    b-carousel(controls=true, background="#ababab", :interval="1500", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="400", img-height="480")
-      b-carousel-slide(v-for="media in Media" :key="media.id" :img-src="media.images[0].url")
-  //b-modal(href="modal2")
-  //  b-carousel#gallery-service-2(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/2/arreglos.jpg")
-  //    b-carousel-slide(img-src="static/img/2/dos.jpg")
-  //b-modal(href="modal3")
-  //  b-carousel#gallery-service-3(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/3/Mesa.jpg")
-  //    b-carousel-slide(img-src="static/img/3/Mesa3.jpg")
-  //    b-carousel-slide(img-src="static/img/3/mesa_boni.jpg")
-  //b-modal(href="modal4")
-  //  b-carousel#gallery-service-4(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/4/arreglo3.jpg")
-  //b-modal(href="modal5")
-  //  b-carousel#gallery-service-5(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/5/Deco6.jpg")
-  //    b-carousel-slide(img-src="static/img/5/Deco5.jpg")
-  //b-modal(href="modal6")
-  //  b-carousel#gallery-service-6(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/6/XV3.jpg")
-  //    b-carousel-slide(img-src="static/img/6/XV2.jpg")
-  //    b-carousel-slide(img-src="static/img/6/XV.jpg")
-  //b-modal(href="modal7")
-  //  b-carousel#gallery-service-7(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/7/Buffet4.jpg")
-  //    b-carousel-slide(img-src="static/img/7/Clienta.jpg")
-  //b-modal(href="modal8")
-  //  b-carousel#gallery-service-8(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
-  //    b-carousel-slide(img-src="static/img/8/Buffet3.jpg")
-  //    b-carousel-slide(img-src="static/img/8/Buffet.jpg")
+              h3.satisfy.subtitle {{ media.name }}
+  b-modal(href="modal2")
+    b-carousel#gallery-service-2(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg")
+      b-carousel-slide(img-src="//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232713/Alquileres-Santana/1/sillas2.jpg")
+  b-modal(href="modal3")
+    b-carousel#gallery-service-3(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/3/Mesa.jpg")
+      b-carousel-slide(img-src="static/img/3/Mesa3.jpg")
+      b-carousel-slide(img-src="static/img/3/mesa_boni.jpg")
+  b-modal(href="modal4")
+    b-carousel#gallery-service-4(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/4/arreglo3.jpg")
+  b-modal(href="modal5")
+    b-carousel#gallery-service-5(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/5/Deco6.jpg")
+      b-carousel-slide(img-src="static/img/5/Deco5.jpg")
+  b-modal(href="modal6")
+    b-carousel#gallery-service-6(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/6/XV3.jpg")
+      b-carousel-slide(img-src="static/img/6/XV2.jpg")
+      b-carousel-slide(img-src="static/img/6/XV.jpg")
+  b-modal(href="modal7")
+    b-carousel#gallery-service-7(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/7/Buffet4.jpg")
+      b-carousel-slide(img-src="static/img/7/Clienta.jpg")
+  b-modal(href="modal8")
+    b-carousel#gallery-service-8(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
+      b-carousel-slide(img-src="static/img/8/Buffet3.jpg")
+      b-carousel-slide(img-src="static/img/8/Buffet.jpg")
   // Slide for show a preview of services.
   #gallery
     b-carousel#gallery-carousel( controls=true, background="#ababab", :interval="1500", sv-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="400", img-height="400")
@@ -91,7 +88,7 @@
   // Card with lorem ipsum for a brief description of slogan or mision and vision of company.
   .container
     .card.white.black-text.text-center.relative
-      h3.medium.slim En <strong class="satisfy medium"> Alquileres Santana</strong> el cliente no es una opinion, es una ley
+      h4.medium.slim En <strong class="satisfy medium"> Alquileres Santana</strong> el cliente no es una opinion, es una ley
       p.top-space Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         |         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         |         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -115,7 +112,9 @@
 
   // Map with location using Google Maps API.
   #location
-    gmap-map(:center="center", :zoom="15" style="width: 100%; height: 100%; border-style: solid; border-width: 4.5px; border-color: dimgray; border-radius:50%;" id="map-container")
-      gmap-marker(:key="index", v-for="(m, index) in markers" :position="m.position", :clickable="false", :draggable="false")
-
+    .row
+      .col-12.col-md-6.col-lg-6
+        gmap-map(:center="center", :zoom="15" style="width: 100%; height: 100%; border-style: solid; border-width: 4.5px; border-color: dimgray; border-radius:50%;" id="map-container")
+          gmap-marker(:key="index", v-for="(m, index) in markers" :position="m.position", :clickable="false", :draggable="false")
+      .col-12.col-md-6.col-lg-6
 
