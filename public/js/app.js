@@ -68615,7 +68615,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     var descriptionDiv = $('#description');
 
     $('.vue-map').css('border-radius', '50%');
-    $('.carousel-inner').css('height', '697px');
+    //resize height for browser
+    $('.carousel-inner').css('height', '67em');
+
     function stickNavigation() {
       descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
       descriptionDiv.removeClass('text-center');
@@ -68753,7 +68755,7 @@ var render = function() {
                   controls: "controls",
                   background: "#ababab",
                   interval: 1500,
-                  "img-width": "800",
+                  "img-width": "400",
                   "img-height": "480"
                 },
                 on: {
@@ -68792,8 +68794,8 @@ var render = function() {
                 background: "#ababab",
                 interval: 1500,
                 "sv-model": "slide",
-                "img-width": "800",
-                "img-height": "480"
+                "img-width": "400",
+                "img-height": "400"
               },
               on: {
                 "sliding-start": _vm.onSlideStart,

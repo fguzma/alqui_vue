@@ -34,7 +34,9 @@ export default {
     const descriptionDiv = $('#description');
 
     $('.vue-map').css('border-radius', '50%');
-    $('.carousel-inner').css('height', '697px');
+    //resize height for browser
+    $('.carousel-inner').css('height', '67em');
+
     function stickNavigation(){
       descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
       descriptionDiv.removeClass('text-center');
