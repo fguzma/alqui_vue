@@ -384,6 +384,7 @@ textarea {
 
 .t-div {
     display: table;
+    width: 100%;
 }
 
 .t-child {
