@@ -278,7 +278,6 @@ textarea {
 #location {
   width: 80%;
   margin: 0 auto;
-  margin-top: -50px;
 }
 
 #map {
@@ -404,6 +403,9 @@ textarea {
   height: 600px;
   width: 100%;
   overflow: hidden;
+  padding-right: 2em;
+  padding-left: 2em;
+  background: black;
 }
 
 
