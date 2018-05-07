@@ -21,7 +21,6 @@
 <div class="content" id="app">
 
     <example-component></example-component>
-
 </div>
 
 <!-- Scripts -->
