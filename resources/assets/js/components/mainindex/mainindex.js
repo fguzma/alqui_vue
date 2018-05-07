@@ -33,6 +33,7 @@ export default {
     const email = 'j.romeroc97@gmail.com';
     const descriptionDiv = $('#description');
 
+    $('.vue-map').css('border-radius', '50%');
     function stickNavigation(){
       descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
       descriptionDiv.removeClass('text-center');

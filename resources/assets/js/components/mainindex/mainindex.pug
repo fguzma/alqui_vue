@@ -115,7 +115,7 @@
 
   // Map with location using Google Maps API.
   #location
-    gmap-map(:center="center", :zoom="15" style="width: 100%; height: 100%;")
-      gmap-marker(:key="index", v-for="(m, index) in markers" :position="m.position", :clickable="false", :draggable="false"  )
+    gmap-map(:center="center", :zoom="15" style="width: 100%; height: 100%; border-style: solid; border-width: 4.5px; border-color: dimgray; border-radius:50%;" id="map-container")
+      gmap-marker(:key="index", v-for="(m, index) in markers" :position="m.position", :clickable="false", :draggable="false")
 
 
