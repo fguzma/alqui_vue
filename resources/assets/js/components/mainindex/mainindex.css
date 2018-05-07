@@ -79,7 +79,7 @@ html, body {
 .services {
   position: relative;
   height: 300px;
-  background-size: cover;
+  background-size: 90% 100%;
   background-position: center;
   padding: 0;
   overflow: hidden;
