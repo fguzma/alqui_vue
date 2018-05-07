@@ -279,6 +279,7 @@ textarea {
     background-color: black;
 }
 
+
 /*End Location of Company*/
 
 /*Helper classes to reduce CL*/
@@ -395,9 +396,12 @@ textarea {
 /*Map Styles*/
 
 #location {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 2em;
+  padding-left: 2em;
+  background: black;
 }
 
 /*End Map Styles*/

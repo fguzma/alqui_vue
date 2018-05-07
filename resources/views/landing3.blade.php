@@ -21,6 +21,13 @@
 <div class="content" id="app">
 
     <example-component></example-component>
+<<<<<<< HEAD
+=======
+
+    {{--<main class="py-4">--}}
+        {{--@yield('content')--}}
+    {{--</main>--}}
+>>>>>>> 544cea65ea6b3d11cb30c27450435fc29409181f
 </div>
 
 <!-- Scripts -->
