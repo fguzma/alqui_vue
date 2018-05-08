@@ -21,22 +21,20 @@ export default {
     onSlideEnd(slide) {
       this.sliding = false
     },
-    showModal () {
-      this.$root.$emit('bv::show::modal', '')
+    showModal (modal) {
+      this.$root.$emit('bv::show::modal', modal)
     },
     hideModal () {
-      this.$root.$emit('bv::hide::modal', '')
+      this.$root.$emit('bv::hide::modal', modal)
     }
   },
   mounted() {
     let sticky = false; // Declare this variable when is not down.
     const email = 'j.romeroc97@gmail.com';
     const descriptionDiv = $('#description');
-
     $('.vue-map').css('border-radius', '50%');
     //resize height for browser
     $('.carousel-inner').css('height', '67em');
-
     function stickNavigation(){
       descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
       descriptionDiv.removeClass('text-center');
