@@ -45,13 +45,16 @@
   // Brief description of services and prices of company
   .text-center.relative#menu
     .absolute#menu-title
-      h2.white-text.black.satisfy.title#service  Servicios
+      h2.white-text.newblack.satisfy.title#service  Servicios
     .row
       .col-3.services(v-for="media in Media" :key="media.id" v-bind:style="{'background-image': 'url(' + media.images[0].url + ')' }")
         .screen
           .row.full-height.t-div
             .col-12.white-text.t-child
-              h3.satisfy.subtitle {{ media.name }}
+              h3#alquiler-sillas.satisfy.subtitle {{ media.name }}
+  b-modal#modal1(:href="media.id" v-for="media in Media" :key="media.id")
+    b-carousel(controls=true, background="#ababab", :interval="1500", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="400", img-height="480")
+      b-carousel-slide(:key="media.id" :img-src="media.images[1].url")
   b-modal(href="modal2")
     b-carousel#gallery-service-2(controls=true, background="#ababab", :interval="2000", v-model="slide", @sliding-start="onSlideStart", @sliding-end="onSlideEnd", img-width="1024", img-height="480")
       b-carousel-slide(img-src="//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg")

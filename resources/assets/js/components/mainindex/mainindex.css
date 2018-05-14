@@ -71,6 +71,10 @@ html, body {
 
 /*End Nav Menu*/
 
+.newblack{
+  background: #0f0f0f;
+}
+
 /*Services Styles*/
 .services {
     position: relative;
