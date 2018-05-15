@@ -19,13 +19,15 @@
 
                                     @if ($errors->has('email'))
                                         <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>El correo no coincide con nuestros registro </strong>
+                                        <br>
+                                        <strong> {{ $errors->first('email') }} </strong>
                                     </span>
                                     @endif
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="form-group row"{{ $errors->has('password') ? ' has-error' : '' }}>
                                 <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                                 <div class="col-md-6">
@@ -33,7 +35,9 @@
 
                                     @if ($errors->has('password'))
                                         <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('password') }}</strong>
+                                        <strong>La contraseña no coincide</strong>
+                                        <br>
+                                        <strong> {{ $errors->first('password') }} </strong>
                                     </span>
                                     @endif
                                 </div>

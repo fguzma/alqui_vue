@@ -17,7 +17,7 @@
 </head>
 
 <body class="bg-info" style="width:100%; height:100%;">
-    <div id="app2" >
+    <div id="" >
         <nav class="navbar navbar-static-top" style=" background-color:#0976A5;" >
             <div class="container" >
                 <div class="navbar-header">
