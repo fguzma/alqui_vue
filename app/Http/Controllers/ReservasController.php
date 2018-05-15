@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use Alquiler\reservacion;
-use Alquiler\descripcion;
-use Alquiler\servicio;
-use Alquiler\inventario;
+use App\reservacion;
+use App\descripcion;
+use App\servicio;
+use App\inventario;
 
 class ReservasController extends Controller
 {

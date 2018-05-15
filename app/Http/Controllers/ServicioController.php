@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Alquiler\Http\Requests;
-use Alquiler\Http\Requests\ServicioAdd;
-use Alquiler\Http\Requests\PersonalUpdate;
-use Alquiler\Servicio;
+use App\Http\Requests;
+use App\Http\Requests\ServicioAdd;
+use App\Http\Requests\PersonalUpdate;
+use App\Servicio;
 use Redirect;
 use Session;
 use DB;

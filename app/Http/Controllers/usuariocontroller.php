@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Alquiler\User;
-use Alquiler\Http\Requests;
-use Alquiler\Http\Requests\usuarioAdd;
-use Alquiler\Http\Requests\usuarioupdate;
+use App\User;
+use App\Http\Requests;
+use App\Http\Requests\usuarioAdd;
+use App\Http\Requests\usuarioupdate;
 use Session;
 use Redirect;
 use Illuminate\Support\Facades\Hash;

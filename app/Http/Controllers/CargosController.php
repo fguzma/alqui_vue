@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Alquiler\Cargo;
-use Alquiler\personal;
+use App\Cargo;
+use App\personal;
 
 class CargosController extends Controller
 {
