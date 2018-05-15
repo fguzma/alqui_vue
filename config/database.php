@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mysql1'),
 
     /*
     |--------------------------------------------------------------------------
@@ -47,6 +47,21 @@ return [
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+
+        'mysql1' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST', 'us-cdbr-iron-east-04.cleardb.net'),
+//            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'heroku_f65683b2393a705'),
+            'username' => env('DB_USERNAME', 'b197df1b5712d1'),
+            'password' => env('DB_PASSWORD', 'b62085da'),
+//            'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
