@@ -89,6 +89,18 @@ export default {
       }
     });
 
+    // Menu button
+
+    $('.icon').on('click', ()=>{
+      const navbar = $('navigation');
+
+      if (navbar.hasClass('responsive')) {
+        navbar.removeClass('responsive');
+      } else if (!navbar.hasClass('responsive')) {
+        navbar.addClass('responsive');
+      }
+    });
+
     // Call to modal bootstrap
 
     $('#alquiler-sillas').on('click', ()=>{

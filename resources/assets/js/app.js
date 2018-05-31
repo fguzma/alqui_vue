@@ -12,6 +12,13 @@ import * as VueGoogleMaps from 'vue2-google-maps';
 import { Carousel } from 'bootstrap-vue/es/components';
 import { Modal } from 'bootstrap-vue/es/components';
 
+import FontAwesome from '@fortawesome/fontawesome';
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
+import solid from '@fortawesome/fontawesome-free-solid';
+
+window.Vue.component('font-awesome-icon', FontAwesomeIcon);
+
+
 //import VueRouter from 'vue-router';
 window.Vue.use(VueRouter);
 window.Vue.use(VueGoogleMaps, {

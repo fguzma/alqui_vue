@@ -271,6 +271,10 @@ textarea {
     text-align: left;
 }
 
+#menu-icon {
+    display: none;
+}
+
 /*End Contact Form*/
 
 /* Location of company */
@@ -429,7 +433,6 @@ textarea {
 
 @media (min-width: 1281px) {
 
-
 }
 
 /*
@@ -439,7 +442,15 @@ textarea {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+    .navigation li a {
+        color: white;
+        cursor: pointer;
+        font-size:17px;
+    }
 
+    #description-text {
+        font-size:17px;
+    }
 }
 
 /*
@@ -477,6 +488,49 @@ textarea {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    /*#navigation {*/
+        /*display: none;*/
+    /*}*/
 
+    /*#sticky-navigation {*/
+        /*display: none;*/
+    /*}*/
+
+    /*#mob-menu {*/
+        /*display: block;*/
+    /*}*/
+
+
+    #navigation a:not(:first-child) {display: none;}
+    #navigation a#menu-icon {
+        float: right;
+        display: block;
+    }
+
+    #navigation.responsive {position: relative;}
+    #navigation.responsive #menu-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #navigation.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #location-row div{
+        height: 14em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    #location-row .white-text,
+    #location-row .white-text p {
+        padding-top: 0 !important;
+    }
 }
 /* Media Queries End */
+
+
+/*Menu Media Queries*/
