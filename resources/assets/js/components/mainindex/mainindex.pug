@@ -7,20 +7,20 @@
     .container-fluid.no-padding.no-margin.relative.h-100#home
         nav.fixed.top.right.navigation.white-text.row.full-width.up#navigation
             .col-12
-                ul.list-inline.float-right
-                    li.list-inline-item
-                        a(href="#header") Inicio
-                    li.list-inline-item
-                        a(href="#menu") Servicios
-                    li.list-inline-item
-                        a(href="#gallery") Galeria
-                    li.list-inline-item
-                        a(href="#contact-form") Contacto
-                    li.list-inline-item
-                        a(href="#location") Como llegar
-                    li.list-inline-item
+                ul.list-inline.float-right.row
+                    li.list-inline-item.col-12.col-md-1.col-lg-1
                         a.icon(href="#")
                             font-awesome-icon#menu-icon(:icon="['fas', 'bars']")
+                    li.list-inline-item.col-12.col-md-2.col-lg-2
+                        a(href="#header") Inicio
+                    li.list-inline-item.col-12.col-md-2.col-lg-2
+                        a(href="#menu") Servicios
+                    li.list-inline-item.col-12.col-md-2.col-lg-2
+                        a(href="#gallery") Galeria
+                    li.list-inline-item.col-12.col-md-2.col-lg-2
+                        a(href="#contact-form") Contacto
+                    li.list-inline-item.col-12.col-md-3.col-lg-3
+                        a(href="#location") Como llegar
         .row.no-padding.h-100
             .white-text.col-12.h-100.no-padding.text-center#parent
                 .h-100#child
@@ -33,17 +33,20 @@
             .row
                 #description-text.col-6.white-text.medium.mx-auto.pt-2.text-center Alquileres Santana
                 .col-6.hidden#sticky-navigation
-                    nav.text-right.navigation
-                        ul.list-inline
-                            li.list-inline-item
+                    nav.text-right.navigation.row
+                        ul.list-inline.row
+                            li.list-inline-item.col-12.col-md-1.col-lg-1
+                                a.icon(href="#")
+                                    font-awesome-icon(:icon="['fas', 'bars']")
+                            li.list-inline-item.col-12.col-md-2.col-lg-2
                                 a(href="#header") Inicio
-                            li.list-inline-item
+                            li.list-inline-item.col-12.col-md-2.col-lg-2
                                 a(href="#menu") Servicios
-                            li.list-inline-item
+                            li.list-inline-item.col-12.col-md-2.col-lg-2
                                 a(href="#gallery") Galeria
-                            li.list-inline-item
+                            li.list-inline-item.col-12.col-md-2.col-lg-2
                                 a(href="#contact-form") Contacto
-                            li.list-inline-item
+                            li.list-inline-item.col-12.col-md-3.col-lg-3
                                 a(href="#location") Como llegar
     // Brief description of services and prices of company
     .text-center.relative#menu

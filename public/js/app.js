@@ -68573,11 +68573,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-<<<<<<< HEAD
-exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) {\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1025px) and (max-width: 1280px) {\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) {\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n    /*#navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#sticky-navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#mob-menu {*/\n        /*display: block;*/\n    /*}*/\n#navigation a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
-=======
-exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-a76388e2], body[data-v-a76388e2] {\r\n    height: 100%;\r\n    width: 100%;\r\n    margin: 0;\r\n    padding: 0;\n}\r\n\r\n/*Video Header*/\n.video-container[data-v-a76388e2] {\r\n    height: 100%;\r\n    width: 100%;\r\n    overflow: hidden;\r\n    position: absolute;\n}\n.video-container video[data-v-a76388e2] {\r\n    height: auto;\r\n    width: auto;\r\n    min-width: 100%;\r\n    min-height: 100%;\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    -webkit-transform: translate(-50%, -50%);\r\n    transform: translate(-50%, -50%);\n}\n#home[data-v-a76388e2] {\r\n    height: 100vh !important;\n}\r\n\r\n/*End Video Header*/\r\n\r\n/* Menu */\r\n\r\n/*Nav Menu*/\n.navigation li[data-v-a76388e2] {\r\n    padding: 5px 10px;\r\n    -webkit-transition: all 0.6s;\r\n    transition: all 0.6s;\n}\n.navigation li[data-v-a76388e2]:hover {\r\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-a76388e2] {\r\n    color: white;\r\n    cursor: pointer;\n}\n.navigation li a[data-v-a76388e2]:hover {\r\n    text-decoration: none;\n}\n#description.absolute[data-v-a76388e2] {\r\n    bottom: 0;\n}\n#description ul[data-v-a76388e2] {\r\n    margin: 0;\n}\n#description.fixed[data-v-a76388e2] {\r\n    top: 0;\n}\r\n\r\n/*End Nav Menu*/\n.newblack[data-v-a76388e2]{\r\n  background: #0f0f0f;\n}\r\n\r\n/*Services Styles*/\n.services[data-v-a76388e2] {\r\n    position: relative;\r\n    height: 300px;\r\n    background-size: 90% 100%;\r\n    background-position: center;\r\n    padding: 0;\r\n    overflow: hidden;\n}\n.services:hover .screen[data-v-a76388e2] {\r\n    top: 0;\n}\n.services .screen[data-v-a76388e2] {\r\n    top: -100%;\r\n    position: relative;\r\n    background-color: rgba(0, 0, 0, 0.8);\r\n    height: 100%;\r\n    width: 100%;\r\n    -webkit-transition: top 0.5s;\r\n    transition: top 0.5s;\n}\n#menu-title[data-v-a76388e2] {\r\n    width: 300px;\r\n    z-index: 5;\r\n    top: 50%;\r\n    left: calc(50% - 150px);\r\n    top: calc(50% - 2.5em);\n}\r\n\r\n/*End Services Styles*/\r\n\r\n/* End Menu */\r\n\r\n/*Gallery*/\n#gallery[data-v-a76388e2] {\r\n    width: 100%;\r\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-a76388e2] {\r\n    white-space: nowrap;\r\n    position: relative;\r\n    left: 0;\r\n    -webkit-transition: left 0.8s;\r\n    transition: left 0.8s;\n}\n#gallery .image[data-v-a76388e2] {\r\n    background-size: cover;\r\n    background-position: center;\r\n    display: inline-block;\r\n    margin-right: -4px;\r\n    height: 100vh;\r\n    width: 100%;\n}\r\n\r\n/*End Gallery*/\r\n/* Cards */\n.container .card[data-v-a76388e2] {\r\n    margin-top: -200px;\r\n    padding: 2em;\n}\r\n\r\n/*End Cards*/\r\n\r\n/* Contact form */\n#contact-form[data-v-a76388e2] {\r\n    margin-top: -4em;\r\n    height: 40em;\r\n    background-color: #000000;\n}\n.contact-wrap[data-v-a76388e2] {\r\n    width: 100%;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-orient: vertical;\r\n    -webkit-box-direction: normal;\r\n        -ms-flex-direction: column;\r\n            flex-direction: column;\r\n    margin-top: 6em;\r\n    background-color: #000000;\n}\n.form-wrapper[data-v-a76388e2] {\r\n    padding: 0;\r\n    font-size: 1rem;\r\n    -webkit-box-sizing: border-box;\r\n            box-sizing: border-box;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-orient: vertical;\r\n    -webkit-box-direction: normal;\r\n        -ms-flex-direction: column;\r\n            flex-direction: column;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    -webkit-box-pack: center;\r\n        -ms-flex-pack: center;\r\n            justify-content: center;\n}\n.form-div[data-v-a76388e2] {\r\n    -webkit-box-sizing: border-box;\r\n            box-sizing: border-box;\r\n    background-color: white;\r\n    width: 100%;\r\n    padding: 2em;\r\n    max-width: 50em;\r\n    min-height: 25em;\n}\n.input-wrap[data-v-a76388e2] {\r\n    -webkit-box-sizing: border-box;\r\n            box-sizing: border-box;\r\n    width: 100%;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-orient: horizontal;\r\n    -webkit-box-direction: normal;\r\n        -ms-flex-direction: row;\r\n            flex-direction: row;\r\n    -webkit-box-align: center;\r\n        -ms-flex-align: center;\r\n            align-items: center;\r\n    -ms-flex-pack: distribute;\r\n        justify-content: space-around;\n}\n.feedback-input[data-v-a76388e2] {\r\n    -webkit-box-shadow: none;\r\n            box-shadow: none;\r\n    border-radius: 0;\r\n    background-clip: padding-box;\r\n    -webkit-box-sizing: border-box;\r\n            box-sizing: border-box;\r\n    border: 2px solid #fff;\r\n    border-bottom: 2px solid #000000;\r\n    color: #000000;\r\n    text-align: left;\r\n    font-size: 1rem;\r\n    font-weight: 600;\r\n    font-family: 'Roboto', sans-serif;\r\n    background-color: transparent;\r\n    padding: 1em;\r\n    margin: 0 0 2em 0;\r\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-a76388e2]:last-child {\r\n    margin-left: 2em;\n}\n.feedback-input[data-v-a76388e2]:focus {\r\n    border: 2px solid #000000;\r\n    background-color: transparent;\r\n    outline: none;\n}\ntextarea[data-v-a76388e2] {\r\n    font-size: 1rem;\r\n    height: 10em;\r\n    overflow: hidden;\r\n    resize: none;\n}\n.message[data-v-a76388e2] {\r\n    text-align: left;\r\n    margin: 0;\n}\n.send-button[data-v-a76388e2] {\r\n    font-size: 1rem;\r\n    border: 2px solid #333;\r\n    cursor: pointer;\r\n    min-width: 11.5em;\r\n    letter-spacing: 1px;\r\n    background-color: transparent;\r\n    font-family: 'Roboto', sans-serif;\r\n    padding: 0.75em 0.3em;\r\n    margin: 0 auto;\r\n    color: #333;\r\n    font-weight: 600;\r\n    outline: none;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n        -ms-flex-pack: center;\r\n            justify-content: center;\n}\n.send-button[data-v-a76388e2]:hover {\r\n    background-color: #333;\r\n    color: #fff;\n}\n[data-v-a76388e2]::-webkit-input-placeholder {\r\n    color: #333;\r\n    font-family: 'Roboto', sans-serif;\r\n    text-align: left;\n}\n[data-v-a76388e2]:-ms-input-placeholder {\r\n    color: #333;\r\n    font-family: 'Roboto', sans-serif;\r\n    text-align: left;\n}\n[data-v-a76388e2]::-ms-input-placeholder {\r\n    color: #333;\r\n    font-family: 'Roboto', sans-serif;\r\n    text-align: left;\n}\n[data-v-a76388e2]::placeholder {\r\n    color: #333;\r\n    font-family: 'Roboto', sans-serif;\r\n    text-align: left;\n}\r\n\r\n/*End Contact Form*/\r\n\r\n/* Location of company */\r\n\r\n\r\n\r\n\r\n/*End Location of Company*/\r\n\r\n/*Helper classes to reduce CL*/\n.top-space[data-v-a76388e2] {\r\n    margin-top: 2em;\n}\n.title[data-v-a76388e2] {\r\n    font-size: 4em;\n}\n.subtitle[data-v-a76388e2] {\r\n    font-size: 2.5em;\n}\n.medium[data-v-a76388e2], .navigation li[data-v-a76388e2] {\r\n    font-size: 1.5em;\n}\n.large-padding[data-v-a76388e2] {\r\n    padding: 10px 15px;\n}\n.black[data-v-a76388e2] {\r\n    background-color: black;\n}\n.white[data-v-a76388e2] {\r\n    background-color: white;\n}\n.black-text[data-v-a76388e2] {\r\n    color: #000000;\n}\n.card[data-v-a76388e2] {\r\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\r\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-a76388e2] {\r\n    font-weight: 200;\n}\n.top[data-v-a76388e2] {\r\n    top: 3em;\n}\n.full-height[data-v-a76388e2] {\r\n    height: 100%;\n}\n.full-width[data-v-a76388e2] {\r\n    width: 100%;\n}\n.relative[data-v-a76388e2] {\r\n    position: relative;\n}\n.white-text[data-v-a76388e2] {\r\n    color: #ffffff;\n}\n.absolute[data-v-a76388e2] {\r\n    position: absolute;\n}\n.fixed[data-v-a76388e2] {\r\n    position: fixed;\n}\n.no-margin[data-v-a76388e2] {\r\n    margin: 0;\n}\n.no-padding[data-v-a76388e2] {\r\n    padding: 0;\n}\n.up[data-v-a76388e2] {\r\n    z-index: 10;\n}\n.row[data-v-a76388e2] {\r\n    margin: 0;\n}\n.hidden[data-v-a76388e2] {\r\n    display: none;\n}\n#parent[data-v-a76388e2] {\r\n    display: table;\n}\n#child[data-v-a76388e2] {\r\n    display: table-cell;\r\n    vertical-align: middle;\n}\n.t-div[data-v-a76388e2] {\r\n    display: table;\r\n    width: 100%;\n}\n.t-child[data-v-a76388e2] {\r\n    display: table-cell;\r\n    vertical-align: middle;\n}\r\n\r\n/*End Helper Classes*/\r\n\r\n/*Map Styles*/\n#location[data-v-a76388e2] {\r\n  height: 600px;\r\n  width: 100%;\r\n  overflow: hidden;\r\n  background: #212121;\n}\n#map-container[data-v-a76388e2] {\r\n    height: 100%;\n}\r\n\r\n\r\n\r\n\r\n/*End Map Styles*/\r\n\r\n/* Footer Styles */\n#footer[data-v-a76388e2] {\r\n    background-color: #000;\n}\r\n\r\n/* Footer Styles End */\r\n\r\n\r\n/* Media Queries */\r\n\r\n\r\n/*\r\n  ##Device = Desktops\r\n  ##Screen = 1281px to higher resolution desktops\r\n*/\n@media (min-width: 1281px) {\n}\r\n\r\n/*\r\n  ##Device = Laptops, Desktops\r\n  ##Screen = B/w 1025px to 1280px\r\n*/\n@media (min-width: 1025px) and (max-width: 1280px) {\n}\r\n\r\n/*\r\n  ##Device = Tablets, Ipads (portrait)\r\n  ##Screen = B/w 768px to 1024px\r\n*/\n@media (min-width: 768px) and (max-width: 1024px) {\n}\r\n\r\n/*\r\n  ##Device = Tablets, Ipads (landscape)\r\n  ##Screen = B/w 768px to 1024px\r\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\r\n\r\n/*\r\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\r\n  ##Screen = B/w 481px to 767px\r\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\r\n\r\n/*\r\n  ##Device = Most of the Smartphones Mobiles (Portrait)\r\n  ##Screen = B/w 320px to 479px\r\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n}\r\n/* Media Queries End */", ""]);
->>>>>>> 9fff0d25bd412c11dc8aea4d8c064294c24a3500
+exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n\n\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) {\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1025px) and (max-width: 1280px) {\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) {\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n    /*#navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#sticky-navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#mob-menu {*/\n        /*display: block;*/\n    /*}*/\n#navigation div ul li a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation div ul li a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive div ul li a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n#menu-icon[data-v-4e2a3fdc] {\n        display: inline-block !important;\n}\n#navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:first-child {\n        padding-top: 1em;\n        padding-left: 4em;\n}\n.icon[data-v-4e2a3fdc] {\n        border: 2px solid white;\n        border-radius: 50%;\n        padding: 10px;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
 
 // exports
 
@@ -68743,37 +68739,100 @@ var render = function() {
             },
             [
               _c("div", { staticClass: "col-12" }, [
-                _c("ul", { staticClass: "list-inline float-right" }, [
+                _c("ul", { staticClass: "list-inline float-right row" }, [
+                  _c(
+                    "li",
+                    {
+                      staticClass: "list-inline-item col-12 col-md-1 col-lg-1"
+                    },
+                    [
+                      _c(
+                        "a",
+                        { staticClass: "icon", attrs: { href: "#" } },
+                        [
+                          _c("font-awesome-icon", {
+                            attrs: { id: "menu-icon", icon: ["fas", "bars"] }
+                          })
+                        ],
+                        1
+                      )
+                    ]
+                  ),
                   _vm._m(1),
                   _vm._m(2),
                   _vm._m(3),
                   _vm._m(4),
-                  _vm._m(5),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c(
-                      "a",
-                      { staticClass: "icon", attrs: { href: "#" } },
-                      [
-                        _c("font-awesome-icon", {
-                          attrs: { id: "menu-icon", icon: ["fas", "bars"] }
-                        })
-                      ],
-                      1
-                    )
-                  ])
+                  _vm._m(5)
                 ])
               ])
             ]
           ),
           _vm._m(6),
-          _vm._m(7)
+          _c(
+            "div",
+            {
+              staticClass:
+                "black large-padding white-text full-width absolute up",
+              attrs: { id: "description" }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-6 white-text medium mx-auto pt-2 text-center",
+                    attrs: { id: "description-text" }
+                  },
+                  [_vm._v("Alquileres Santana")]
+                ),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-6 hidden",
+                    attrs: { id: "sticky-navigation" }
+                  },
+                  [
+                    _c("nav", { staticClass: "text-right navigation row" }, [
+                      _c("ul", { staticClass: "list-inline row" }, [
+                        _c(
+                          "li",
+                          {
+                            staticClass:
+                              "list-inline-item col-12 col-md-1 col-lg-1"
+                          },
+                          [
+                            _c(
+                              "a",
+                              { staticClass: "icon", attrs: { href: "#" } },
+                              [
+                                _c("font-awesome-icon", {
+                                  attrs: { icon: ["fas", "bars"] }
+                                })
+                              ],
+                              1
+                            )
+                          ]
+                        ),
+                        _vm._m(7),
+                        _vm._m(8),
+                        _vm._m(9),
+                        _vm._m(10),
+                        _vm._m(11)
+                      ])
+                    ])
+                  ]
+                )
+              ])
+            ]
+          )
         ]
       ),
       _c(
         "div",
         { staticClass: "text-center relative", attrs: { id: "menu" } },
         [
-          _vm._m(8),
+          _vm._m(12),
           _c(
             "div",
             { staticClass: "row" },
@@ -69167,8 +69226,8 @@ var render = function() {
         ],
         1
       ),
-      _vm._m(9),
-      _vm._m(10),
+      _vm._m(13),
+      _vm._m(14),
       _c(
         "div",
         { staticClass: "container-fluid pt-5 pb-5", attrs: { id: "location" } },
@@ -69212,17 +69271,12 @@ var render = function() {
                 ],
                 1
               ),
-              _vm._m(11)
+              _vm._m(15)
             ]
           )
         ]
       ),
-<<<<<<< HEAD
-      _vm._m(12)
-=======
-      _vm._m(6),
-      _c("div", { staticClass: "container", attrs: { id: "mobile-menu" } })
->>>>>>> 9fff0d25bd412c11dc8aea4d8c064294c24a3500
+      _vm._m(16)
     ],
     2
   )
@@ -69263,41 +69317,51 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "list-inline-item" }, [
-      _c("a", { attrs: { href: "#header" } }, [_vm._v("Inicio")])
-    ])
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#header" } }, [_vm._v("Inicio")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "list-inline-item" }, [
-      _c("a", { attrs: { href: "#menu" } }, [_vm._v("Servicios")])
-    ])
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#menu" } }, [_vm._v("Servicios")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "list-inline-item" }, [
-      _c("a", { attrs: { href: "#gallery" } }, [_vm._v("Galeria")])
-    ])
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#gallery" } }, [_vm._v("Galeria")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "list-inline-item" }, [
-      _c("a", { attrs: { href: "#contact-form" } }, [_vm._v("Contacto")])
-    ])
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#contact-form" } }, [_vm._v("Contacto")])]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "list-inline-item" }, [
-      _c("a", { attrs: { href: "#location" } }, [_vm._v("Como llegar")])
-    ])
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-3 col-lg-3" },
+      [_c("a", { attrs: { href: "#location" } }, [_vm._v("Como llegar")])]
+    )
   },
   function() {
     var _vm = this
@@ -69331,54 +69395,49 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "div",
-      {
-        staticClass: "black large-padding white-text full-width absolute up",
-        attrs: { id: "description" }
-      },
-      [
-        _c("div", { staticClass: "row" }, [
-          _c(
-            "div",
-            {
-              staticClass: "col-6 white-text medium mx-auto pt-2 text-center",
-              attrs: { id: "description-text" }
-            },
-            [_vm._v("Alquileres Santana")]
-          ),
-          _c(
-            "div",
-            { staticClass: "col-6 hidden", attrs: { id: "sticky-navigation" } },
-            [
-              _c("nav", { staticClass: "text-right navigation" }, [
-                _c("ul", { staticClass: "list-inline" }, [
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#header" } }, [_vm._v("Inicio")])
-                  ]),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#menu" } }, [_vm._v("Servicios")])
-                  ]),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#gallery" } }, [
-                      _vm._v("Galeria")
-                    ])
-                  ]),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#contact-form" } }, [
-                      _vm._v("Contacto")
-                    ])
-                  ]),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#location" } }, [
-                      _vm._v("Como llegar")
-                    ])
-                  ])
-                ])
-              ])
-            ]
-          )
-        ])
-      ]
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#header" } }, [_vm._v("Inicio")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#menu" } }, [_vm._v("Servicios")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#gallery" } }, [_vm._v("Galeria")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-2 col-lg-2" },
+      [_c("a", { attrs: { href: "#contact-form" } }, [_vm._v("Contacto")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "li",
+      { staticClass: "list-inline-item col-12 col-md-3 col-lg-3" },
+      [_c("a", { attrs: { href: "#location" } }, [_vm._v("Como llegar")])]
     )
   },
   function() {
