@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Alquiler\Http\Requests;
-use Alquiler\reservacion;
-use Alquiler\descripcion;
-use Alquiler\servicio;
-use Alquiler\Inventario;
-use Alquiler\desre;
-use Alquiler\Http\Requests\AddReserva;
+use App\Http\Requests;
+use App\reservacion;
+use App\descripcion;
+use App\servicio;
+use App\Inventario;
+use App\desre;
+use App\Http\Requests\AddReserva;
 use Redirect;
 use PDF;
 

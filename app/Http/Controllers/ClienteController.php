@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Alquiler\Http\Controllers\Controller;
-use Alquiler\Http\Requests;
-use Alquiler\Http\Requests\clienteAdd;
-use Alquiler\Http\Requests\clienteUpdate;
-use Alquiler\Cliente;
+use App\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Requests\clienteAdd;
+use App\Http\Requests\clienteUpdate;
+use App\Cliente;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Redirect;

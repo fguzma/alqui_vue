@@ -15,16 +15,15 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet" type="text/css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="content" id="app">
-
     <example-component></example-component>
 </div>
 
 <!-- Scripts -->
-<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>
