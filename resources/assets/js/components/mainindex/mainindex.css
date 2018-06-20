@@ -434,8 +434,36 @@ textarea {
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width: 1439px) {
+    .nav-icon {
+        display: none;
+    }
 
+
+}
+
+@media (min-width: 1440px) {
+    .nav-icon {
+        display: none;
+    }
+
+    #map-column {
+        padding: 2em;
+    }
+
+    #location-info {
+        padding-top: 9em !important;
+    }
+
+    .navigation li a {
+        color: white;
+        cursor: pointer;
+        font-size:15px;
+    }
+
+    #description-text {
+        font-size:15px;
+    }
 }
 
 /*
@@ -443,7 +471,11 @@ textarea {
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .nav-icon {
+        display: none;
+    }
 
     .navigation li a {
         color: white;
@@ -454,6 +486,10 @@ textarea {
     #description-text {
         font-size:17px;
     }
+
+    #location-info {
+        padding-top: 7.5em !important;
+    }
 }
 
 /*
@@ -461,7 +497,21 @@ textarea {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-icon {
+        display: none;
+    }
+
+    #map-column {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .navigation li a {
+        color: white;
+        cursor: pointer;
+        font-size:15px;
+    }
 
 
 }

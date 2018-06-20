@@ -110,5 +110,20 @@ export default {
     $('#bodas').on('click', ()=>{
       this.$root.$emit('bv::show::modal', 'modal2')
     });
+
+    // function mediaQueryFunction(x) {
+    //   $('.nav-icon').css({
+    //       display: 'none',
+    //   });
+    //
+    // }
+    //
+    // let x = window.matchMedia("(min-width: 1920px)");
+    //
+    // mediaQueryFunction(x);
+    //
+    // x.addListener(mediaQueryFunction)
+
+
   }
 };

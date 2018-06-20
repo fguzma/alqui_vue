@@ -8,7 +8,7 @@
         nav.fixed.top.right.navigation.white-text.row.full-width.up#navigation
             .col-12
                 ul.list-inline.float-right.row
-                    li.list-inline-item.col-12.col-md-1.col-lg-1
+                    li.list-inline-item.col-12.col-md-1.col-lg-1.nav-icon
                         a.icon(href="#")
                             font-awesome-icon#menu-icon(:icon="['fas', 'bars']")
                     li.list-inline-item.col-12.col-md-2.col-lg-2
@@ -35,7 +35,7 @@
                 .col-6.hidden#sticky-navigation
                     nav.text-right.navigation.row
                         ul.list-inline.row
-                            li.list-inline-item.col-12.col-md-1.col-lg-1
+                            li.list-inline-item.col-12.col-md-1.col-lg-1.nav-icon
                                 a.icon(href="#")
                                     font-awesome-icon(:icon="['fas', 'bars']")
                             li.list-inline-item.col-12.col-md-2.col-lg-2
@@ -122,10 +122,10 @@
     // Map with location using Google Maps API.
     #location.container-fluid.pt-5.pb-5
         .row.full-height#location-row
-            .col-12.col-md-6.col-lg-6
+            .col-12.col-md-6.col-lg-6#map-column
                 gmap-map(:center="center", :zoom="15" style="width: 100%; height: 100%; border-style: solid; border-width: 4.5px; border-color: dimgray; border-radius:50%;" id="map-container")
                     gmap-marker(:key="index", v-for="(m, index) in markers" :position="m.position", :clickable="false", :draggable="false")
-            .col-12.col-md-6.col-lg-6.white-text.pt-5
+            .col-12.col-md-6.col-lg-6.white-text.pt-5#location-info
                 p.pt-5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     |         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     |         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

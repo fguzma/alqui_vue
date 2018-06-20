@@ -11,6 +11,10 @@
 |
 */
 
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Route::get('/','FrontController@index');
 Route::get('/principal','FrontController@principal');
 //Route::get('/users','FrontController@users');
