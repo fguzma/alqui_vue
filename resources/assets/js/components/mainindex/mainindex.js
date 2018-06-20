@@ -29,101 +29,119 @@ export default {
     }
   },
   mounted() {
-    let sticky = false; // Declare this variable when is not down.
-    const email = 'j.romeroc97@gmail.com';
-    const descriptionDiv = $('#description');
-    $('.vue-map').css('border-radius', '50%');
-    //resize height for browser
-    $('.carousel-inner').css('height', '67em');
-    function stickNavigation(){
-      descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
-      descriptionDiv.removeClass('text-center');
-      $('#navigation').slideUp('fast');
-      $('#sticky-navigation').slideDown('fast');
-    }
+      let sticky = false; // Declare this variable when is not down.
+      const email = 'j.romeroc97@gmail.com';
+      const descriptionDiv = $('#description');
+      $('.vue-map').css('border-radius', '50%');
+      //resize height for browser
+      $('.carousel-inner').css('height', '67em');
 
-    function unStickNavigation() {
-      descriptionDiv.removeClass('fixed').addClass('absolute');
-      descriptionDiv.addClass('text-center');
-      $('#navigation').slideDown('fast');
-      $('#sticky-navigation').slideUp('fast');
-    }
+      function stickNavigation() {
+          descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
+          descriptionDiv.removeClass('text-center');
+          $('#navigation').slideUp('fast');
+          $('#sticky-navigation').slideDown('fast');
+      }
 
-    function sendForm() {
-      $.ajax({
-        url: $form.attr('action'),
-        method: 'POST',
-        data: $form.formObject(),
-        dataType: 'json',
-        success: () => {
-          alert('Everything Ok!');
-        }
+      function unStickNavigation() {
+          descriptionDiv.removeClass('fixed').addClass('absolute');
+          descriptionDiv.addClass('text-center');
+          $('#navigation').slideDown('fast');
+          $('#sticky-navigation').slideUp('fast');
+      }
+
+      function sendForm() {
+          $.ajax({
+              url: $form.attr('action'),
+              method: 'POST',
+              data: $form.formObject(),
+              dataType: 'json',
+              success: () => {
+                  alert('Everything Ok!');
+              }
+          });
+      }
+
+      function isInBottom() {
+          const description = $('#description');
+          const descriptionHeight = description.height();
+          return $(window).scrollTop() > $(window).height() - (descriptionHeight * 2)
+      }
+
+      $('#form-contact').on('submit', (ev) => {
+          ev.preventDefault();
+          sendForm($(this));
+          return false
       });
-    }
 
-    function isInBottom() {
-      const description = $('#description');
-      const descriptionHeight = description.height();
-      return $(window).scrollTop() > $(window).height() - (descriptionHeight * 2)
-    }
+      /* Define time interval */
 
-    $('#form-contact').on('submit', (ev) => {
-      ev.preventDefault();
-      sendForm($(this));
-      return false
-    });
+      $(window).scroll(() => {
+          const inBottom = isInBottom();
+          // If in bottom and sticky is false
+          if (inBottom && !sticky) {
+              // Change sticky to true
+              sticky = true;
+              stickNavigation();
+          }
+          if (!inBottom && sticky) {
+              sticky = false;
+              unStickNavigation();
+          }
+      });
 
-    /* Define time interval */
+      // Menu button
 
-    $(window).scroll(()=>{
-      const inBottom = isInBottom();
-      // If in bottom and sticky is false
-      if(inBottom && !sticky){
-        // Change sticky to true
-        sticky = true;
-        stickNavigation();
-      }
-      if(!inBottom && sticky){
-        sticky = false;
-        unStickNavigation();
-      }
-    });
+      $('.icon').on('click', () => {
+          const navbar = $('navigation');
 
-    // Menu button
+          if (navbar.hasClass('responsive')) {
+              navbar.removeClass('responsive');
+          } else if (!navbar.hasClass('responsive')) {
+              navbar.addClass('responsive');
+          }
+      });
 
-    $('.icon').on('click', ()=>{
-      const navbar = $('navigation');
+      // Call to modal bootstrap
 
-      if (navbar.hasClass('responsive')) {
-        navbar.removeClass('responsive');
-      } else if (!navbar.hasClass('responsive')) {
-        navbar.addClass('responsive');
-      }
-    });
+      $('#alquiler-sillas').on('click', () => {
+          this.$root.$emit('bv::show::modal', 'modal1')
+      });
 
-    // Call to modal bootstrap
+      $('#bodas').on('click', () => {
+          this.$root.$emit('bv::show::modal', 'modal2')
+      });
 
-    $('#alquiler-sillas').on('click', ()=>{
-      this.$root.$emit('bv::show::modal', 'modal1')
-    });
+      let menuElementsDisplay = $('#navigation div ul li:not(:first-child)').css('display');
 
-    $('#bodas').on('click', ()=>{
-      this.$root.$emit('bv::show::modal', 'modal2')
-    });
+      $('#button').on('click', () => {
+          switch (menuElementsDisplay) {
+              case 'none':
+                  $('#navigation div ul li:not(:first-child)').css({
+                      display: 'block',
+                  });
+                  break;
+              default:
+                  $('#navigation div ul li:not(:first-child)').css({
+                      display: 'none',
+                  });
+          }
+      });
 
-    // function mediaQueryFunction(x) {
-    //   $('.nav-icon').css({
-    //       display: 'none',
-    //   });
-    //
-    // }
-    //
-    // let x = window.matchMedia("(min-width: 1920px)");
-    //
-    // mediaQueryFunction(x);
-    //
-    // x.addListener(mediaQueryFunction)
-
+      $('#button-2').on('click', () => {
+          switch (menuElementsDisplay) {
+              case 'none':
+                  $('#sticky-navigation .list-inline-item:not(:first-child)').css({
+                      display: 'block',
+                  });
+                  break;
+              default:
+                  $('#sticky-navigation .list-inline-item:not(:first-child)').css({
+                      display: 'none',
+                  });
+          }
+      });
 
   }
+
 };

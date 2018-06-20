@@ -73104,7 +73104,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n\n\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) and (max-width: 1439px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n}\n@media (min-width: 1440px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding: 2em;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 9em !important;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:15px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:15px;\n}\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1024px) and (max-width: 1280px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 7.5em !important;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1023px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding-top: 3em;\n        padding-bottom: 3em;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:15px;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n    /*#navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#sticky-navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#mob-menu {*/\n        /*display: block;*/\n    /*}*/\n#navigation div ul li a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation div ul li a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive div ul li a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n#menu-icon[data-v-4e2a3fdc] {\n        display: inline-block !important;\n}\n#navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:first-child {\n        padding-top: 1em;\n        padding-left: 4em;\n}\n.icon[data-v-4e2a3fdc] {\n        border: 2px solid white;\n        border-radius: 50%;\n        padding: 10px;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
+exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n\n\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) and (max-width: 1439px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n}\n@media (min-width: 1440px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding: 2em;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 9em !important;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:15px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:15px;\n}\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1024px) and (max-width: 1280px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 7.5em !important;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1023px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding-top: 3em;\n        padding-bottom: 3em;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:15px;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n    /*#navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#sticky-navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#mob-menu {*/\n        /*display: block;*/\n    /*}*/\n#navigation div ul li a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation div ul li a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive div ul li a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n#menu-icon[data-v-4e2a3fdc] {\n        display: inline-block !important;\n}\n#navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:first-child {\n        padding-top: 0.5em;\n        padding-left: 3em;\n}\n.icon[data-v-4e2a3fdc] {\n        color: white;\n        background-color: transparent;\n        border: 2px solid white;\n        border-radius: 50%;\n        padding: 10px;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
 
 // exports
 
@@ -73120,133 +73120,150 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'HelloWorld',
-  data: function data() {
-    return {
-      msg: 'Vue tutorial!',
-      slide: 0,
-      sliding: null,
-      center: { lat: 12.122527, lng: -86.237792 },
-      markers: [{
-        position: { lat: 12.122527, lng: -86.237792 }
-      }],
-      Media: __WEBPACK_IMPORTED_MODULE_0__media_json___default.a
-    };
-  },
-
-  methods: {
-    onSlideStart: function onSlideStart(slide) {
-      this.sliding = true;
+    name: 'HelloWorld',
+    data: function data() {
+        return {
+            msg: 'Vue tutorial!',
+            slide: 0,
+            sliding: null,
+            center: { lat: 12.122527, lng: -86.237792 },
+            markers: [{
+                position: { lat: 12.122527, lng: -86.237792 }
+            }],
+            Media: __WEBPACK_IMPORTED_MODULE_0__media_json___default.a
+        };
     },
-    onSlideEnd: function onSlideEnd(slide) {
-      this.sliding = false;
-    },
-    showModal: function showModal(modal) {
-      this.$root.$emit('bv::show::modal', modal);
-    },
-    hideModal: function hideModal() {
-      this.$root.$emit('bv::hide::modal', modal);
-    }
-  },
-  mounted: function mounted() {
-    var _this = this;
 
-    var sticky = false; // Declare this variable when is not down.
-    var email = 'j.romeroc97@gmail.com';
-    var descriptionDiv = $('#description');
-    $('.vue-map').css('border-radius', '50%');
-    //resize height for browser
-    $('.carousel-inner').css('height', '67em');
-    function stickNavigation() {
-      descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
-      descriptionDiv.removeClass('text-center');
-      $('#navigation').slideUp('fast');
-      $('#sticky-navigation').slideDown('fast');
-    }
-
-    function unStickNavigation() {
-      descriptionDiv.removeClass('fixed').addClass('absolute');
-      descriptionDiv.addClass('text-center');
-      $('#navigation').slideDown('fast');
-      $('#sticky-navigation').slideUp('fast');
-    }
-
-    function sendForm() {
-      $.ajax({
-        url: $form.attr('action'),
-        method: 'POST',
-        data: $form.formObject(),
-        dataType: 'json',
-        success: function success() {
-          alert('Everything Ok!');
+    methods: {
+        onSlideStart: function onSlideStart(slide) {
+            this.sliding = true;
+        },
+        onSlideEnd: function onSlideEnd(slide) {
+            this.sliding = false;
+        },
+        showModal: function showModal(modal) {
+            this.$root.$emit('bv::show::modal', modal);
+        },
+        hideModal: function hideModal() {
+            this.$root.$emit('bv::hide::modal', modal);
         }
-      });
+    },
+    mounted: function mounted() {
+        var _this = this;
+
+        var sticky = false; // Declare this variable when is not down.
+        var email = 'j.romeroc97@gmail.com';
+        var descriptionDiv = $('#description');
+        $('.vue-map').css('border-radius', '50%');
+        //resize height for browser
+        $('.carousel-inner').css('height', '67em');
+
+        function stickNavigation() {
+            descriptionDiv.addClass('fixed').removeClass('absolute'); // Fixing div description
+            descriptionDiv.removeClass('text-center');
+            $('#navigation').slideUp('fast');
+            $('#sticky-navigation').slideDown('fast');
+        }
+
+        function unStickNavigation() {
+            descriptionDiv.removeClass('fixed').addClass('absolute');
+            descriptionDiv.addClass('text-center');
+            $('#navigation').slideDown('fast');
+            $('#sticky-navigation').slideUp('fast');
+        }
+
+        function sendForm() {
+            $.ajax({
+                url: $form.attr('action'),
+                method: 'POST',
+                data: $form.formObject(),
+                dataType: 'json',
+                success: function success() {
+                    alert('Everything Ok!');
+                }
+            });
+        }
+
+        function isInBottom() {
+            var description = $('#description');
+            var descriptionHeight = description.height();
+            return $(window).scrollTop() > $(window).height() - descriptionHeight * 2;
+        }
+
+        $('#form-contact').on('submit', function (ev) {
+            ev.preventDefault();
+            sendForm($(_this));
+            return false;
+        });
+
+        /* Define time interval */
+
+        $(window).scroll(function () {
+            var inBottom = isInBottom();
+            // If in bottom and sticky is false
+            if (inBottom && !sticky) {
+                // Change sticky to true
+                sticky = true;
+                stickNavigation();
+            }
+            if (!inBottom && sticky) {
+                sticky = false;
+                unStickNavigation();
+            }
+        });
+
+        // Menu button
+
+        $('.icon').on('click', function () {
+            var navbar = $('navigation');
+
+            if (navbar.hasClass('responsive')) {
+                navbar.removeClass('responsive');
+            } else if (!navbar.hasClass('responsive')) {
+                navbar.addClass('responsive');
+            }
+        });
+
+        // Call to modal bootstrap
+
+        $('#alquiler-sillas').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal1');
+        });
+
+        $('#bodas').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal2');
+        });
+
+        var menuElementsDisplay = $('#navigation div ul li:not(:first-child)').css('display');
+
+        $('#button').on('click', function () {
+            switch (menuElementsDisplay) {
+                case 'none':
+                    $('#navigation div ul li:not(:first-child)').css({
+                        display: 'block'
+                    });
+                    break;
+                default:
+                    $('#navigation div ul li:not(:first-child)').css({
+                        display: 'none'
+                    });
+            }
+        });
+
+        $('#button-2').on('click', function () {
+            switch (menuElementsDisplay) {
+                case 'none':
+                    $('#sticky-navigation .list-inline-item:not(:first-child)').css({
+                        display: 'block'
+                    });
+                    break;
+                default:
+                    $('#sticky-navigation .list-inline-item:not(:first-child)').css({
+                        display: 'none'
+                    });
+            }
+        });
     }
-
-    function isInBottom() {
-      var description = $('#description');
-      var descriptionHeight = description.height();
-      return $(window).scrollTop() > $(window).height() - descriptionHeight * 2;
-    }
-
-    $('#form-contact').on('submit', function (ev) {
-      ev.preventDefault();
-      sendForm($(_this));
-      return false;
-    });
-
-    /* Define time interval */
-
-    $(window).scroll(function () {
-      var inBottom = isInBottom();
-      // If in bottom and sticky is false
-      if (inBottom && !sticky) {
-        // Change sticky to true
-        sticky = true;
-        stickNavigation();
-      }
-      if (!inBottom && sticky) {
-        sticky = false;
-        unStickNavigation();
-      }
-    });
-
-    // Menu button
-
-    $('.icon').on('click', function () {
-      var navbar = $('navigation');
-
-      if (navbar.hasClass('responsive')) {
-        navbar.removeClass('responsive');
-      } else if (!navbar.hasClass('responsive')) {
-        navbar.addClass('responsive');
-      }
-    });
-
-    // Call to modal bootstrap
-
-    $('#alquiler-sillas').on('click', function () {
-      _this.$root.$emit('bv::show::modal', 'modal1');
-    });
-
-    $('#bodas').on('click', function () {
-      _this.$root.$emit('bv::show::modal', 'modal2');
-    });
-
-    // function mediaQueryFunction(x) {
-    //   $('.nav-icon').css({
-    //       display: 'none',
-    //   });
-    //
-    // }
-    //
-    // let x = window.matchMedia("(min-width: 1920px)");
-    //
-    // mediaQueryFunction(x);
-    //
-    // x.addListener(mediaQueryFunction)
-
-  }
 });
 
 /***/ }),
@@ -73294,7 +73311,7 @@ var render = function() {
                     [
                       _c(
                         "a",
-                        { staticClass: "icon", attrs: { href: "#" } },
+                        { staticClass: "icon", attrs: { id: "button" } },
                         [
                           _c("font-awesome-icon", {
                             attrs: { id: "menu-icon", icon: ["fas", "bars"] }
@@ -73350,7 +73367,10 @@ var render = function() {
                           [
                             _c(
                               "a",
-                              { staticClass: "icon", attrs: { href: "#" } },
+                              {
+                                staticClass: "responsive-button icon",
+                                attrs: { id: "button-2" }
+                              },
                               [
                                 _c("font-awesome-icon", {
                                   attrs: { icon: ["fas", "bars"] }
