@@ -600,12 +600,18 @@ textarea {
         padding-left: 3em;
     }
 
+    .nav-icon {
+        top: 13px;
+        height: 2.3em !important;
+    }
+
     .icon {
         color: white;
         background-color: transparent;
         border: 2px solid white;
         border-radius: 50%;
         padding: 10px;
+        margin: 5px;
     }
 
 }

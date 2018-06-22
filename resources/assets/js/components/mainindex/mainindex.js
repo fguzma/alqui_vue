@@ -112,33 +112,41 @@ export default {
           this.$root.$emit('bv::show::modal', 'modal2')
       });
 
-      let menuElementsDisplay = $('#navigation div ul li:not(:first-child)').css('display');
+      let menuElementsDisplay = $('#navigation .list-inline-item:not(:first-child)').css('display');
 
       $('#button').on('click', () => {
+          console.log(menuElementsDisplay);
           switch (menuElementsDisplay) {
               case 'none':
-                  $('#navigation div ul li:not(:first-child)').css({
+                  $('#navigation .list-inline-item:not(:first-child)').css({
                       display: 'block',
+                      'background-color': 'black',
                   });
+                  menuElementsDisplay = 'block';
                   break;
               default:
                   $('#navigation div ul li:not(:first-child)').css({
                       display: 'none',
+                      'background-color': 'transparent',
                   });
+                  menuElementsDisplay = 'none';
           }
       });
 
       $('#button-2').on('click', () => {
+          console.log(menuElementsDisplay);
           switch (menuElementsDisplay) {
               case 'none':
                   $('#sticky-navigation .list-inline-item:not(:first-child)').css({
                       display: 'block',
                   });
+                  menuElementsDisplay = 'block';
                   break;
               default:
                   $('#sticky-navigation .list-inline-item:not(:first-child)').css({
                       display: 'none',
                   });
+                  menuElementsDisplay = 'none';
           }
       });
 
