@@ -603,6 +603,7 @@ textarea {
     .nav-icon {
         top: 13px;
         height: 2.3em !important;
+        margin-bottom: 15px;
     }
 
     .icon {
