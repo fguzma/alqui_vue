@@ -43,6 +43,7 @@ export default {
           $('#sticky-navigation').slideDown('fast');
       }
 
+      // Esconder navegacion sticky.
       function unStickNavigation() {
           descriptionDiv.removeClass('fixed').addClass('absolute');
           descriptionDiv.addClass('text-center');
@@ -50,6 +51,7 @@ export default {
           $('#sticky-navigation').slideUp('fast');
       }
 
+      // Request con formulario de contacto.
       function sendForm() {
           $.ajax({
               url: $form.attr('action'),
@@ -61,13 +63,14 @@ export default {
               }
           });
       }
-
+      // Funcion para determinar cuando el scroll llego hasta abajo.
       function isInBottom() {
           const description = $('#description');
           const descriptionHeight = description.height();
           return $(window).scrollTop() > $(window).height() - (descriptionHeight * 2)
       }
 
+      // Envio de formulario para contacto.
       $('#form-contact').on('submit', (ev) => {
           ev.preventDefault();
           sendForm($(this));
@@ -75,7 +78,7 @@ export default {
       });
 
       /* Define time interval */
-
+      // Funcion para mostrar barra de navegacion sticky.
       $(window).scroll(() => {
           const inBottom = isInBottom();
           // If in bottom and sticky is false
@@ -102,18 +105,44 @@ export default {
           }
       });
 
-      // Call to modal bootstrap
+      // Llamar modals
 
-      $('#alquiler-sillas').on('click', () => {
+      $('#alquileresSillas').on('click', () => {
           this.$root.$emit('bv::show::modal', 'modal1')
       });
 
-      $('#bodas').on('click', () => {
+      $('#organizacionEventos').on('click', () => {
           this.$root.$emit('bv::show::modal', 'modal2')
       });
 
+      $('#alquileresMesas').on('click', () => {
+         this.$root.$emit('bv::show::modal', 'modal3')
+      });
+
+      $('#decoracion').on('click', () => {
+         this.$root.$emit('bv::show::modal', 'modal4')
+      });
+
+      $('#organizacionCumpleanhos').on('click', () => {
+          this.$root.$emit('bv::show::modal', 'modal5')
+      });
+
+      $('#organizacionQuinceanhos').on('click', () =>  {
+          this.$root.$emit('bv::show::modal', 'modal6')
+      });
+
+      $('#buffet').on('click', () => {
+          this.$root.$emit('bv::show::modal', 'modal7')
+      });
+
+      $('#alquilerUtensilios').on('click', () => {
+          this.$root.$emit('bv::show::modal', 'modal8')
+      });
+
+      // Elemento css display de los elementos del menu.
       let menuElementsDisplay = $('#navigation .list-inline-item:not(:first-child)').css('display');
 
+      // Funcion para mostrar y ocultar menu en dispositivos moviles en barra de navegacion general.
       $('#button').on('click', () => {
           console.log(menuElementsDisplay);
           switch (menuElementsDisplay) {
@@ -133,6 +162,7 @@ export default {
           }
       });
 
+      // Funcion para mostrar y ocultar menu en dispositivos moviles en barra de navegacion sticky.
       $('#button-2').on('click', () => {
           console.log(menuElementsDisplay);
           switch (menuElementsDisplay) {

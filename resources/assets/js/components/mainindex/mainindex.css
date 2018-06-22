@@ -435,6 +435,8 @@ textarea {
 */
 
 @media (min-width: 1281px) and (max-width: 1439px) {
+
+    /* Estilos de navegacion */
     .nav-icon {
         display: none;
     }
@@ -443,16 +445,11 @@ textarea {
 }
 
 @media (min-width: 1440px) {
+
+    /* Estilos de navegacion */
+
     .nav-icon {
         display: none;
-    }
-
-    #map-column {
-        padding: 2em;
-    }
-
-    #location-info {
-        padding-top: 9em !important;
     }
 
     .navigation li a {
@@ -465,6 +462,16 @@ textarea {
     #description-text {
         font-size:16px;
     }
+
+    /* Estilos de localizacion */
+    #map-column {
+        padding: 2em;
+    }
+
+    #location-info {
+        padding-top: 9em !important;
+    }
+
 }
 
 /*
@@ -473,7 +480,7 @@ textarea {
 */
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-
+    /* Estilos de navegacion */
     .nav-icon {
         display: none;
     }
@@ -488,6 +495,8 @@ textarea {
         font-size:17px;
     }
 
+    /* Estilos de localizacion */
+
     #location-info {
         padding-top: 7.5em !important;
     }
@@ -499,13 +508,10 @@ textarea {
 */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Estilos de navegacion */
     .nav-icon {
         display: none;
-    }
-
-    #map-column {
-        padding-top: 3em;
-        padding-bottom: 3em;
     }
 
     .navigation li a {
@@ -513,6 +519,14 @@ textarea {
         cursor: pointer;
         font-size:16px;
     }
+
+    /* Estilos de localizacion */
+
+    #map-column {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
 
 
 }
@@ -542,23 +556,6 @@ textarea {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    /*#navigation {*/
-        /*display: none;*/
-    /*}*/
-
-    /*#sticky-navigation {*/
-        /*display: none;*/
-    /*}*/
-
-    /*#mob-menu {*/
-        /*display: block;*/
-    /*}*/
-
-    #navigation div ul li a:not(:first-child) {display: none;}
-    #navigation div ul li a#menu-icon {
-        float: right;
-        display: block;
-    }
 
     #navigation.responsive {position: relative;}
     #navigation.responsive #menu-icon {
@@ -572,6 +569,7 @@ textarea {
         text-align: left;
     }
 
+    /* Estilos para seccion del mapa en dispositivos pequenhos */
     #location-row div{
         height: 14em;
         padding-left: 3em;
@@ -581,6 +579,14 @@ textarea {
     #location-row .white-text,
     #location-row .white-text p {
         padding-top: 0 !important;
+    }
+
+    /* Estilos de navegacion en dispositivos moviles */
+
+    #navigation div ul li a:not(:first-child) {display: none;}
+    #navigation div ul li a#menu-icon {
+        float: right;
+        display: block;
     }
 
     #menu-icon {

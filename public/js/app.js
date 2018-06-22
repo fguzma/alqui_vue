@@ -73104,7 +73104,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n\n\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) and (max-width: 1439px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n}\n@media (min-width: 1440px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding: 2em;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 9em !important;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:16px;\n        font-weight: 700;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:16px;\n}\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1024px) and (max-width: 1280px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 7.5em !important;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1023px) {\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n#map-column[data-v-4e2a3fdc] {\n        padding-top: 3em;\n        padding-bottom: 3em;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:16px;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n    /*#navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#sticky-navigation {*/\n        /*display: none;*/\n    /*}*/\n\n    /*#mob-menu {*/\n        /*display: block;*/\n    /*}*/\n#navigation div ul li a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation div ul li a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive div ul li a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n#menu-icon[data-v-4e2a3fdc] {\n        display: inline-block !important;\n}\n#navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:first-child {\n        padding-top: 0.5em;\n        padding-left: 3em;\n}\n.nav-icon[data-v-4e2a3fdc] {\n        top: 13px;\n        height: 2.3em !important;\n        margin-bottom: 15px;\n}\n.icon[data-v-4e2a3fdc] {\n        color: white;\n        background-color: transparent;\n        border: 2px solid white;\n        border-radius: 50%;\n        padding: 10px;\n        margin: 5px;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
+exports.push([module.i, "/*Custom CSS to remove Flexboxgrid*/\nhtml[data-v-4e2a3fdc], body[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n/*Video Header*/\n.video-container[data-v-4e2a3fdc] {\n    height: 100%;\n    width: 100%;\n    overflow: hidden;\n    position: absolute;\n}\n.video-container video[data-v-4e2a3fdc] {\n    height: auto;\n    width: auto;\n    min-width: 100%;\n    min-height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n}\n#home[data-v-4e2a3fdc] {\n    height: 100vh !important;\n}\n\n/*End Video Header*/\n\n/* Menu */\n\n/*Nav Menu*/\n.navigation li[data-v-4e2a3fdc] {\n    padding: 5px 10px;\n    -webkit-transition: all 0.6s;\n    transition: all 0.6s;\n}\n.navigation li[data-v-4e2a3fdc]:hover {\n    background-color: rgba(0, 0, 0, 0.8);\n}\n.navigation li a[data-v-4e2a3fdc] {\n    color: white;\n    cursor: pointer;\n}\n.navigation li a[data-v-4e2a3fdc]:hover {\n    text-decoration: none;\n}\n#description.absolute[data-v-4e2a3fdc] {\n    bottom: 0;\n}\n#description ul[data-v-4e2a3fdc] {\n    margin: 0;\n}\n#description.fixed[data-v-4e2a3fdc] {\n    top: 0;\n}\n\n/*End Nav Menu*/\n.newblack[data-v-4e2a3fdc]{\n  background: #0f0f0f;\n}\n\n/*Services Styles*/\n.services[data-v-4e2a3fdc] {\n    position: relative;\n    height: 300px;\n    background-size: 90% 100%;\n    background-position: center;\n    padding: 0;\n    overflow: hidden;\n}\n.services:hover .screen[data-v-4e2a3fdc] {\n    top: 0;\n}\n.services .screen[data-v-4e2a3fdc] {\n    top: -100%;\n    position: relative;\n    background-color: rgba(0, 0, 0, 0.8);\n    height: 100%;\n    width: 100%;\n    -webkit-transition: top 0.5s;\n    transition: top 0.5s;\n}\n#menu-title[data-v-4e2a3fdc] {\n    width: 300px;\n    z-index: 5;\n    top: 50%;\n    left: calc(50% - 150px);\n    top: calc(50% - 2.5em);\n}\n\n/*End Services Styles*/\n\n/* End Menu */\n\n/*Gallery*/\n#gallery[data-v-4e2a3fdc] {\n    width: 100%;\n    overflow-x: hidden;\n}\n#gallery .inner[data-v-4e2a3fdc] {\n    white-space: nowrap;\n    position: relative;\n    left: 0;\n    -webkit-transition: left 0.8s;\n    transition: left 0.8s;\n}\n#gallery .image[data-v-4e2a3fdc] {\n    background-size: cover;\n    background-position: center;\n    display: inline-block;\n    margin-right: -4px;\n    height: 100vh;\n    width: 100%;\n}\n\n/*End Gallery*/\n/* Cards */\n.container .card[data-v-4e2a3fdc] {\n    margin-top: -200px;\n    padding: 2em;\n}\n\n/*End Cards*/\n\n/* Contact form */\n#contact-form[data-v-4e2a3fdc] {\n    margin-top: -4em;\n    height: 40em;\n    background-color: #000000;\n}\n.contact-wrap[data-v-4e2a3fdc] {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    margin-top: 6em;\n    background-color: #000000;\n}\n.form-wrapper[data-v-4e2a3fdc] {\n    padding: 0;\n    font-size: 1rem;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.form-div[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    background-color: white;\n    width: 100%;\n    padding: 2em;\n    max-width: 50em;\n    min-height: 25em;\n}\n.input-wrap[data-v-4e2a3fdc] {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n}\n.feedback-input[data-v-4e2a3fdc] {\n    -webkit-box-shadow: none;\n            box-shadow: none;\n    border-radius: 0;\n    background-clip: padding-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    border: 2px solid #fff;\n    border-bottom: 2px solid #000000;\n    color: #000000;\n    text-align: left;\n    font-size: 1rem;\n    font-weight: 600;\n    font-family: 'Roboto', sans-serif;\n    background-color: transparent;\n    padding: 1em;\n    margin: 0 0 2em 0;\n    width: 100%;\n}\n.input-wrap .feedback-input[data-v-4e2a3fdc]:last-child {\n    margin-left: 2em;\n}\n.feedback-input[data-v-4e2a3fdc]:focus {\n    border: 2px solid #000000;\n    background-color: transparent;\n    outline: none;\n}\ntextarea[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    height: 10em;\n    overflow: hidden;\n    resize: none;\n}\n.message[data-v-4e2a3fdc] {\n    text-align: left;\n    margin: 0;\n}\n.send-button[data-v-4e2a3fdc] {\n    font-size: 1rem;\n    border: 2px solid #333;\n    cursor: pointer;\n    min-width: 11.5em;\n    letter-spacing: 1px;\n    background-color: transparent;\n    font-family: 'Roboto', sans-serif;\n    padding: 0.75em 0.3em;\n    margin: 0 auto;\n    color: #333;\n    font-weight: 600;\n    outline: none;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n.send-button[data-v-4e2a3fdc]:hover {\n    background-color: #333;\n    color: #fff;\n}\n[data-v-4e2a3fdc]::-webkit-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]:-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::-ms-input-placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n[data-v-4e2a3fdc]::placeholder {\n    color: #333;\n    font-family: 'Roboto', sans-serif;\n    text-align: left;\n}\n#menu-icon[data-v-4e2a3fdc] {\n    display: none;\n}\n\n\n\n\n/*End Contact Form*/\n\n/* Location of company */\n\n\n\n\n/*End Location of Company*/\n\n/*Helper classes to reduce CL*/\n.top-space[data-v-4e2a3fdc] {\n    margin-top: 2em;\n}\n.title[data-v-4e2a3fdc] {\n    font-size: 4em;\n}\n.subtitle[data-v-4e2a3fdc] {\n    font-size: 2.5em;\n}\n.medium[data-v-4e2a3fdc], .navigation li[data-v-4e2a3fdc] {\n    font-size: 1.5em;\n}\n.large-padding[data-v-4e2a3fdc] {\n    padding: 10px 15px;\n}\n.black[data-v-4e2a3fdc] {\n    background-color: black;\n}\n.white[data-v-4e2a3fdc] {\n    background-color: white;\n}\n.black-text[data-v-4e2a3fdc] {\n    color: #000000;\n}\n.card[data-v-4e2a3fdc] {\n    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);\n}\n.slim[data-v-4e2a3fdc] {\n    font-weight: 200;\n}\n.top[data-v-4e2a3fdc] {\n    top: 3em;\n}\n.full-height[data-v-4e2a3fdc] {\n    height: 100%;\n}\n.full-width[data-v-4e2a3fdc] {\n    width: 100%;\n}\n.relative[data-v-4e2a3fdc] {\n    position: relative;\n}\n.white-text[data-v-4e2a3fdc] {\n    color: #ffffff;\n}\n.absolute[data-v-4e2a3fdc] {\n    position: absolute;\n}\n.fixed[data-v-4e2a3fdc] {\n    position: fixed;\n}\n.no-margin[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.no-padding[data-v-4e2a3fdc] {\n    padding: 0;\n}\n.up[data-v-4e2a3fdc] {\n    z-index: 10;\n}\n.row[data-v-4e2a3fdc] {\n    margin: 0;\n}\n.hidden[data-v-4e2a3fdc] {\n    display: none;\n}\n#parent[data-v-4e2a3fdc] {\n    display: table;\n}\n#child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n.t-div[data-v-4e2a3fdc] {\n    display: table;\n    width: 100%;\n}\n.t-child[data-v-4e2a3fdc] {\n    display: table-cell;\n    vertical-align: middle;\n}\n\n/*End Helper Classes*/\n\n/*Map Styles*/\n#location[data-v-4e2a3fdc] {\n  height: 600px;\n  width: 100%;\n  overflow: hidden;\n  background: #212121;\n}\n#map-container[data-v-4e2a3fdc] {\n    height: 100%;\n}\n\n\n\n\n/*End Map Styles*/\n\n/* Footer Styles */\n#footer[data-v-4e2a3fdc] {\n    background-color: #000;\n}\n\n/* Footer Styles End */\n\n\n/* Media Queries */\n\n\n/*\n  ##Device = Desktops\n  ##Screen = 1281px to higher resolution desktops\n*/\n@media (min-width: 1281px) and (max-width: 1439px) {\n\n    /* Estilos de navegacion */\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n}\n@media (min-width: 1440px) {\n\n    /* Estilos de navegacion */\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:16px;\n        font-weight: 700;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:16px;\n}\n\n    /* Estilos de localizacion */\n#map-column[data-v-4e2a3fdc] {\n        padding: 2em;\n}\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 9em !important;\n}\n}\n\n/*\n  ##Device = Laptops, Desktops\n  ##Screen = B/w 1025px to 1280px\n*/\n@media (min-width: 1024px) and (max-width: 1280px) {\n    /* Estilos de navegacion */\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:17px;\n}\n#description-text[data-v-4e2a3fdc] {\n        font-size:17px;\n}\n\n    /* Estilos de localizacion */\n#location-info[data-v-4e2a3fdc] {\n        padding-top: 7.5em !important;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (portrait)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1023px) {\n\n    /* Estilos de navegacion */\n.nav-icon[data-v-4e2a3fdc] {\n        display: none;\n}\n.navigation li a[data-v-4e2a3fdc] {\n        color: white;\n        cursor: pointer;\n        font-size:16px;\n}\n\n    /* Estilos de localizacion */\n#map-column[data-v-4e2a3fdc] {\n        padding-top: 3em;\n        padding-bottom: 3em;\n}\n}\n\n/*\n  ##Device = Tablets, Ipads (landscape)\n  ##Screen = B/w 768px to 1024px\n*/\n@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {\n}\n\n/*\n  ##Device = Low Resolution Tablets, Mobiles (Landscape)\n  ##Screen = B/w 481px to 767px\n*/\n@media (min-width: 481px) and (max-width: 767px) {\n}\n\n/*\n  ##Device = Most of the Smartphones Mobiles (Portrait)\n  ##Screen = B/w 320px to 479px\n*/\n@media (min-width: 320px) and (max-width: 480px) {\n#navigation.responsive[data-v-4e2a3fdc] {position: relative;\n}\n#navigation.responsive #menu-icon[data-v-4e2a3fdc] {\n        position: absolute;\n        right: 0;\n        top: 0;\n}\n#navigation.responsive div ul li a[data-v-4e2a3fdc] {\n        float: none;\n        display: block;\n        text-align: left;\n}\n\n    /* Estilos para seccion del mapa en dispositivos pequenhos */\n#location-row div[data-v-4e2a3fdc]{\n        height: 14em;\n        padding-left: 3em;\n        padding-right: 3em;\n}\n#location-row .white-text[data-v-4e2a3fdc],\n    #location-row .white-text p[data-v-4e2a3fdc] {\n        padding-top: 0 !important;\n}\n\n    /* Estilos de navegacion en dispositivos moviles */\n#navigation div ul li a[data-v-4e2a3fdc]:not(:first-child) {display: none;\n}\n#navigation div ul li a#menu-icon[data-v-4e2a3fdc] {\n        float: right;\n        display: block;\n}\n#menu-icon[data-v-4e2a3fdc] {\n        display: inline-block !important;\n}\n#navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:not(:first-child) {\n        display: none;\n}\n#sticky-navigation .list-inline-item[data-v-4e2a3fdc]:first-child {\n        padding-top: 0.5em;\n        padding-left: 3em;\n}\n.nav-icon[data-v-4e2a3fdc] {\n        top: 13px;\n        height: 2.3em !important;\n        margin-bottom: 15px;\n}\n.icon[data-v-4e2a3fdc] {\n        color: white;\n        background-color: transparent;\n        border: 2px solid white;\n        border-radius: 50%;\n        padding: 10px;\n        margin: 5px;\n}\n}\n/* Media Queries End */\n\n\n/*Menu Media Queries*/\n", ""]);
 
 // exports
 
@@ -73165,6 +73165,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             $('#sticky-navigation').slideDown('fast');
         }
 
+        // Esconder navegacion sticky.
         function unStickNavigation() {
             descriptionDiv.removeClass('fixed').addClass('absolute');
             descriptionDiv.addClass('text-center');
@@ -73172,6 +73173,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             $('#sticky-navigation').slideUp('fast');
         }
 
+        // Request con formulario de contacto.
         function sendForm() {
             $.ajax({
                 url: $form.attr('action'),
@@ -73183,13 +73185,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 }
             });
         }
-
+        // Funcion para determinar cuando el scroll llego hasta abajo.
         function isInBottom() {
             var description = $('#description');
             var descriptionHeight = description.height();
             return $(window).scrollTop() > $(window).height() - descriptionHeight * 2;
         }
 
+        // Envio de formulario para contacto.
         $('#form-contact').on('submit', function (ev) {
             ev.preventDefault();
             sendForm($(_this));
@@ -73197,7 +73200,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         });
 
         /* Define time interval */
-
+        // Funcion para mostrar barra de navegacion sticky.
         $(window).scroll(function () {
             var inBottom = isInBottom();
             // If in bottom and sticky is false
@@ -73224,18 +73227,44 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
         });
 
-        // Call to modal bootstrap
+        // Llamar modals
 
-        $('#alquiler-sillas').on('click', function () {
+        $('#alquileresSillas').on('click', function () {
             _this.$root.$emit('bv::show::modal', 'modal1');
         });
 
-        $('#bodas').on('click', function () {
+        $('#organizacionEventos').on('click', function () {
             _this.$root.$emit('bv::show::modal', 'modal2');
         });
 
+        $('#alquileresMesas').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal3');
+        });
+
+        $('#decoracion').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal4');
+        });
+
+        $('#organizacionCumpleanhos').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal5');
+        });
+
+        $('#organizacionQuinceanhos').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal6');
+        });
+
+        $('#buffet').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal7');
+        });
+
+        $('#alquilerUtensilios').on('click', function () {
+            _this.$root.$emit('bv::show::modal', 'modal8');
+        });
+
+        // Elemento css display de los elementos del menu.
         var menuElementsDisplay = $('#navigation .list-inline-item:not(:first-child)').css('display');
 
+        // Funcion para mostrar y ocultar menu en dispositivos moviles en barra de navegacion general.
         $('#button').on('click', function () {
             console.log(menuElementsDisplay);
             switch (menuElementsDisplay) {
@@ -73255,6 +73284,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }
         });
 
+        // Funcion para mostrar y ocultar menu en dispositivos moviles en barra de navegacion sticky.
         $('#button-2').on('click', function () {
             console.log(menuElementsDisplay);
             switch (menuElementsDisplay) {
@@ -73278,7 +73308,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 249 */
 /***/ (function(module, exports) {
 
-module.exports = [{"id":1,"name":"Alquileres de Sillas","images":[{"id":1,"description":"Principal y Galeria","url":"https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"},{"id":2,"description":"Modal 1","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"},{"id":3,"description":"Modal 1-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232713/Alquileres-Santana/1/sillas2.jpg"}]},{"id":2,"name":"Organizacion de Eventos","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232734/Alquileres-Santana/2/arreglo.jpg"},{"id":2,"description":"Modal 2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232734/Alquileres-Santana/2/arreglo.jpg"},{"id":3,"description":"Modal 2-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232732/Alquileres-Santana/2/dos.jpg"}]},{"id":3,"name":"Alquileres de Mesa","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232742/Alquileres-Santana/3/Mesa.jpg"},{"id":2,"description":"Modal 3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232742/Alquileres-Santana/3/Mesa.jpg"},{"id":3,"description":"Modal 3-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232744/Alquileres-Santana/3/mesa_boni.jpg"},{"id":4,"description":"Modal 3-3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232743/Alquileres-Santana/3/Mesa3.jpg"}]},{"id":4,"name":"Decoracion","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232753/Alquileres-Santana/4/arreglo3.jpg"},{"id":2,"description":"Modal 4","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232753/Alquileres-Santana/4/arreglo3.jpg"}]},{"id":5,"name":"Organizacion de Cumpleaños","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco5.jpg"},{"id":2,"description":"Modal 5","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco5.jpg"},{"id":3,"description":"Modal 5-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco6.jpg"}]},{"id":6,"name":"Organizacion de Quinceaños","images":[{"id":1,"description":"Principal","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV.jpg"},{"id":2,"description":"Modal 6","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV.jpg"},{"id":3,"description":"Modal 6-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV2.jpg"},{"id":4,"description":"Modal 6-3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV3.jpg"}]},{"id":7,"name":"Buffet","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232780/Alquileres-Santana/7/Buffet4.jpg"},{"id":2,"description":"Modal 7","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232780/Alquileres-Santana/7/Buffet4.jpg"},{"id":3,"description":"Modal 7-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232781/Alquileres-Santana/7/Clienta.jpg"}]},{"id":8,"name":"Alquileres de Utensilios","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232789/Alquileres-Santana/8/Buffet.jpg"},{"id":2,"description":"Modal 8","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232789/Alquileres-Santana/8/Buffet.jpg"},{"id":3,"description":"Modal 8-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232788/Alquileres-Santana/8/Buffet3.jpg"}]}]
+module.exports = [{"id":1,"name":"Alquileres de Sillas","slug":"alquileresSillas","images":[{"id":1,"description":"Principal y Galeria","url":"https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"},{"id":2,"description":"Modal 1","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"},{"id":3,"description":"Modal 1-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232713/Alquileres-Santana/1/sillas2.jpg"}]},{"id":2,"name":"Organizacion de Eventos","slug":"organizacionEventos","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232734/Alquileres-Santana/2/arreglo.jpg"},{"id":2,"description":"Modal 2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232734/Alquileres-Santana/2/arreglo.jpg"},{"id":3,"description":"Modal 2-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232732/Alquileres-Santana/2/dos.jpg"}]},{"id":3,"name":"Alquileres de Mesa","slug":"alquileresMesas","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232742/Alquileres-Santana/3/Mesa.jpg"},{"id":2,"description":"Modal 3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232742/Alquileres-Santana/3/Mesa.jpg"},{"id":3,"description":"Modal 3-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232744/Alquileres-Santana/3/mesa_boni.jpg"},{"id":4,"description":"Modal 3-3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232743/Alquileres-Santana/3/Mesa3.jpg"}]},{"id":4,"name":"Decoracion","slug":"decoracion","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232753/Alquileres-Santana/4/arreglo3.jpg"},{"id":2,"description":"Modal 4","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232753/Alquileres-Santana/4/arreglo3.jpg"}]},{"id":5,"name":"Organizacion de Cumpleaños","slug":"organizacionCumpleanhos","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco5.jpg"},{"id":2,"description":"Modal 5","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco5.jpg"},{"id":3,"description":"Modal 5-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232762/Alquileres-Santana/5/Deco6.jpg"}]},{"id":6,"name":"Organizacion de Quinceaños","slug":"organizacionQuinceanhos","images":[{"id":1,"description":"Principal","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV.jpg"},{"id":2,"description":"Modal 6","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV.jpg"},{"id":3,"description":"Modal 6-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV2.jpg"},{"id":4,"description":"Modal 6-3","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232772/Alquileres-Santana/6/XV3.jpg"}]},{"id":7,"name":"Buffet","slug":"buffet","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232780/Alquileres-Santana/7/Buffet4.jpg"},{"id":2,"description":"Modal 7","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232780/Alquileres-Santana/7/Buffet4.jpg"},{"id":3,"description":"Modal 7-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232781/Alquileres-Santana/7/Clienta.jpg"}]},{"id":8,"name":"Alquileres de Utensilios","slug":"alquilerUtensilios","images":[{"id":1,"description":"Principal y Galeria","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232789/Alquileres-Santana/8/Buffet.jpg"},{"id":2,"description":"Modal 8","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232789/Alquileres-Santana/8/Buffet.jpg"},{"id":3,"description":"Modal 8-2","url":"//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232788/Alquileres-Santana/8/Buffet3.jpg"}]}]
 
 /***/ }),
 /* 250 */
@@ -73428,7 +73458,7 @@ var render = function() {
                           "h3",
                           {
                             staticClass: "satisfy subtitle",
-                            attrs: { id: "alquiler-sillas" }
+                            attrs: { id: media.slug }
                           },
                           [_vm._v(_vm._s(media.name))]
                         )
@@ -73441,48 +73471,54 @@ var render = function() {
           )
         ]
       ),
-      _vm._l(_vm.Media, function(media) {
-        return _c(
-          "b-modal",
-          { key: media.id, attrs: { id: "modal1", href: media.id } },
-          [
-            _c(
-              "b-carousel",
-              {
-                attrs: {
-                  controls: "controls",
-                  background: "#ababab",
-                  interval: 1500,
-                  "img-width": "400",
-                  "img-height": "480"
-                },
-                on: {
-                  "sliding-start": _vm.onSlideStart,
-                  "sliding-end": _vm.onSlideEnd
-                },
-                model: {
-                  value: _vm.slide,
-                  callback: function($$v) {
-                    _vm.slide = $$v
-                  },
-                  expression: "slide"
-                }
-              },
-              [
-                _c("b-carousel-slide", {
-                  key: media.id,
-                  attrs: { "img-src": media.images[1].url }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        )
-      }),
       _c(
         "b-modal",
-        { attrs: { href: "modal2" } },
+        { attrs: { id: "modal1", href: "modal1" } },
+        [
+          _c(
+            "b-carousel",
+            {
+              attrs: {
+                controls: "controls",
+                background: "#ababab",
+                interval: 1500,
+                "img-width": "400",
+                "img-height": "480"
+              },
+              on: {
+                "sliding-start": _vm.onSlideStart,
+                "sliding-end": _vm.onSlideEnd
+              },
+              model: {
+                value: _vm.slide,
+                callback: function($$v) {
+                  _vm.slide = $$v
+                },
+                expression: "slide"
+              }
+            },
+            [
+              _c("b-carousel-slide", {
+                attrs: {
+                  "img-src":
+                    "https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"
+                }
+              }),
+              _c("b-carousel-slide", {
+                attrs: {
+                  "img-src":
+                    "https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"
+                }
+              })
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _c(
+        "b-modal",
+        { attrs: { id: "modal2", href: "modal2" } },
         [
           _c(
             "b-carousel",
@@ -73511,13 +73547,13 @@ var render = function() {
               _c("b-carousel-slide", {
                 attrs: {
                   "img-src":
-                    "//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"
+                    "https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232712/Alquileres-Santana/1/Sillas.jpg"
                 }
               }),
               _c("b-carousel-slide", {
                 attrs: {
                   "img-src":
-                    "//res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232713/Alquileres-Santana/1/sillas2.jpg"
+                    "https://res.cloudinary.com/fguzman/image/upload/c_scale,h_697,w_800/v1523232713/Alquileres-Santana/1/sillas2.jpg"
                 }
               })
             ],
@@ -73528,7 +73564,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal3" } },
+        { attrs: { id: "modal3", href: "modal3" } },
         [
           _c(
             "b-carousel",
@@ -73571,7 +73607,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal4" } },
+        { attrs: { id: "modal4", href: "modal4" } },
         [
           _c(
             "b-carousel",
@@ -73608,7 +73644,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal5" } },
+        { attrs: { id: "modal5", href: "modal5" } },
         [
           _c(
             "b-carousel",
@@ -73648,7 +73684,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal6" } },
+        { attrs: { id: "modal6", href: "modal6" } },
         [
           _c(
             "b-carousel",
@@ -73691,7 +73727,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal7" } },
+        { attrs: { id: "modal7", href: "modal7" } },
         [
           _c(
             "b-carousel",
@@ -73731,7 +73767,7 @@ var render = function() {
       ),
       _c(
         "b-modal",
-        { attrs: { href: "modal8" } },
+        { attrs: { id: "modal8", href: "modal8" } },
         [
           _c(
             "b-carousel",
@@ -73855,7 +73891,7 @@ var render = function() {
       ),
       _vm._m(16)
     ],
-    2
+    1
   )
 }
 var staticRenderFns = [
