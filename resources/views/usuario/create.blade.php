@@ -76,7 +76,7 @@
       /*validacion para el usuario*/
       if(decision==1)
       {
-        var ruta="http://127.0.0.1:8080/userexist/"+$("#usuario").val()+"/"+decision;
+        var ruta="https://alquiler.herokuapp.com/userexist/"+$("#usuario").val()+"/"+decision;
         if($("#usuario").val()!="")
         {
           $.get(ruta, function(res){
@@ -91,7 +91,7 @@
       /*validacion para el correo*/
       if(decision==2)
       {
-        var ruta="http://127.0.0.1:8080/userexist/"+$("#Correo").val()+"/"+decision;
+        var ruta="https://alquiler.herokuapp.com/userexist/"+$("#Correo").val()+"/"+decision;
         if($("#correo").val()!="")
         {
           $.get(ruta, function(res){

@@ -37,7 +37,7 @@
   var autocompletado=false;
   function buscar(cedula)
   {
-    var ruta="http://127.0.0.1:8080/cliente/"+cedula.value;
+    var ruta="https://alquiler.herokuapp.com/cliente/"+cedula.value;
     var token=$("#token").val();
     autocompletado=false;
       $.ajax({
@@ -64,7 +64,7 @@
   
   function autocompletar(cedula)
   {
-    var ruta="http://127.0.0.1:8080/cliente/"+cedula;
+    var ruta="https://alquiler.herokuapp.com/cliente/"+cedula;
     $.get(ruta, function(res){
           $("#Nombre").val(res.Nombre);
           $("#Apellido").val(res.Apellido);
@@ -80,7 +80,7 @@
   function agregar()
   {
     var valor = $("#data").val();//{Cedula_Cliente:"999-999999-99999",Nombre:"Kavv",Apellido:"Kavv",Edad:45,Sexo:"Hombre"};
-    var ruta = "http://127.0.0.1:8080/cliente";
+    var ruta = "https://alquiler.herokuapp.com/cliente";
     var token = $("#token").val();
     console.log($("#data").serialize());
     $.ajax({

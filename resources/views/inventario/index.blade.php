@@ -54,7 +54,7 @@
             else
                 item=$("#nombreA").val();
             console.log(servi+"--"+item);
-            var ruta="http://127.0.0.1:8080/filtroinventario/"+servi+'/'+item;
+            var ruta="https://alquiler.herokuapp.com/filtroinventario/"+servi+'/'+item;
             console.log(ruta);
             var token=$("#token").val();
             $.get(ruta, function(res){

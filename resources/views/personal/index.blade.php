@@ -28,7 +28,7 @@
         //Filtramos por el campo cedula    
         function filtro()
         {
-            var ruta="http://127.0.0.1:8080/filtropersonal/"+$("#cedu").val();
+            var ruta="https://alquiler.herokuapp.com/filtropersonal/"+$("#cedu").val();
             var token=$("#token").val();
             $.get(ruta, function(res){
                 $("#lista").empty();//Elimina la lista actual

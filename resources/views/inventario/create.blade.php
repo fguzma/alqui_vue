@@ -22,7 +22,7 @@
   function agregar()
   {
     var valor = $("#data").val();//{Cedula_Cliente:"999-999999-99999",Nombre:"Kavv",Apellido:"Kavv",Edad:45,Sexo:"Hombre"};
-    var ruta = "http://127.0.0.1:8080/inventario";
+    var ruta = "https://alquiler.herokuapp.com/inventario";
     var token = $("#token").val();
     console.log($("#data").serialize());
     $.ajax({
@@ -55,7 +55,7 @@
   }
   function recargar(val)
   {
-    var ruta="http://127.0.0.1:8080/mensaje/"+val;
+    var ruta="https://alquiler.herokuapp.com/mensaje/"+val;
     $.get(ruta, function(res){
       $("#mensaje").empty();//Elimina la lista actual
       jQuery("#mensaje").append(res);//Actualiza la lista

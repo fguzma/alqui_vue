@@ -7,6 +7,7 @@
 
 window.Vue = require('./bootstrap');
 window.Vue = require('vue');
+
 import VueRouter from 'vue-router';
 import * as VueGoogleMaps from 'vue2-google-maps';
 import { Carousel } from 'bootstrap-vue/es/components';

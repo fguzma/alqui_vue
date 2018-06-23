@@ -54,7 +54,7 @@
             else
                 valorfil=$("#valorf").val();
             console.log(tfiltro+"--"+valorfil);
-            var ruta="http://127.0.0.1:8080/filtroreservas/"+tfiltro+'/'+valorfil;
+            var ruta="https://alquiler.herokuapp.com/filtroreservas/"+tfiltro+'/'+valorfil;
             console.log(ruta);
             var token=$("#token").val();
             $.get(ruta, function(res){

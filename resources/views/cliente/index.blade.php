@@ -35,7 +35,7 @@
         //Filtramos por el campo cedula    
         function filtro()
         {
-            var ruta="http://127.0.0.1:8080/filtrocliente/"+$("#cedu").val();
+            var ruta="https://alquiler.herokuapp.com/filtrocliente/"+$("#cedu").val();
             console.log($("#cedu").val());
             var token=$("#token").val();
             $.get(ruta, function(res){

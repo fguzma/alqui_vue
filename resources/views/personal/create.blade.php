@@ -29,7 +29,7 @@
   var autocompletado=false;
   function buscar(cedula)
   {
-    var ruta="http://127.0.0.1:8080/personal/"+cedula.value;
+    var ruta="https://alquiler.herokuapp.com/personal/"+cedula.value;
     var token=$("#token").val();
     autocompletado=false;
       $.ajax({
@@ -55,7 +55,7 @@
   }
   function autocompletar(cedula)
   {
-    var ruta="http://127.0.0.1:8080/personal/"+cedula;
+    var ruta="https://alquiler.herokuapp.com/personal/"+cedula;
     $.get(ruta, function(res){
           $("#Nombre").val(res.Nombre);
           $("#Apellido").val(res.Apellido);

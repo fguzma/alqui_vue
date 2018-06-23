@@ -34,7 +34,7 @@
                 valorfil="no";
             else
                 valorfil=$("#valorf").val();
-            var ruta="http://127.0.0.1:8080/filtrousuario/"+tfiltro+'/'+valorfil;
+            var ruta="https://alquiler.herokuapp.com/filtrousuario/"+tfiltro+'/'+valorfil;
             $.get(ruta, function(res){
                 $("#lista").empty();//Elimina la lista actual
                 //$(".pagination").remove();
