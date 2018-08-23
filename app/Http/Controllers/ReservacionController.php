@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
-use App\reservacion;
+use App\Reservacion;
 use App\descripcion;
 use App\Servicio;
 use App\Inventario;
