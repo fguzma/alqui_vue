@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\reservacion;
 use App\descripcion;
-use App\servicio;
+use App\Servicio;
 use App\Inventario;
 use App\desre;
 use App\Http\Requests\AddReserva;
