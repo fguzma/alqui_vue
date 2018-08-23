@@ -5,8 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Reservacion;
+use Servicio;
 use App\descripcion;
-use App\Servicio;
+//use App\Servicio;
 use App\Inventario;
 use App\desre;
 use App\Http\Requests\AddReserva;
@@ -22,7 +23,7 @@ class ReservacionController extends Controller
     public function index()
     {
         /*Retorna todos los datos de la tabla reservacion e inventario de la BD a index*/
-        $servicios=Servicio::all();
+        $servicios=servicio::all();
         $inventario=Inventario::all();
         return view('reservacion.index',compact('servicios','inventario'));
     }
